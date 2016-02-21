@@ -1,0 +1,1416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-03 15:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: T\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,10,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Die Seite konnte nicht gefunden werden."
+
+#: 404.php:27
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Entschuldigen Sie bitte, doch das was Sie suchen befindet sich leider nicht hier."
+
+#: archive.php:27
+#, php-format
+msgid "All posts in %s"
+msgstr "Alle Beiträge in %s"
+
+#: archive.php:29
+#, php-format
+msgid "All posts tagged %s"
+msgstr "Alle markierten Beiträge %s"
+
+#: archive.php:31
+#: archive.php:33
+#: archive.php:35
+msgid "Archive for"
+msgstr "Archiv für "
+
+#: archive.php:37
+msgid "All posts by"
+msgstr "Alle Beiträge von"
+
+#: archive.php:39
+msgid "Blog archives"
+msgstr "Blogarchiv"
+
+#: archive.php:63
+#: archive.php:68
+#: archive.php:77
+#: archive.php:114
+#: archive.php:135
+#: search.php:31
+#: search.php:52
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: archive.php:75
+#: archive.php:135
+#: comments.php:11
+#: search.php:52
+msgid "No comments"
+msgstr "0 Kommentare"
+
+#: archive.php:75
+#: archive.php:135
+#: comments.php:11
+#: search.php:52
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: archive.php:75
+#: archive.php:135
+#: comments.php:11
+#: search.php:52
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: archive.php:77
+msgid "Read the rest of this entry"
+msgstr "Lesen Sie den vollständigen Artikel"
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Beitrag ist durch ein Password geschützt. Bitte geben Sie ihr Password ein, um die Kommentare sehen zu können."
+
+#: comments.php:36
+msgid "No comments yet."
+msgstr "Es ist noch kein Kommentar vorhanden."
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:48
+msgid "Leave a comment"
+msgstr "Hinterlassen Sie einen Kommentar."
+
+#: comments.php:48
+#, php-format
+msgid "Leave a comment to %s"
+msgstr "Hinterlassen Sie einen Kommentar zu %s"
+
+#: comments.php:60
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Sie müssen %1$seingeloggt%2$s sein, um einen Kommentar verfassen zu können."
+
+#: comments.php:69
+msgid "Comment form"
+msgstr "Kommentarformular"
+
+#: comments.php:76
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "Eingeloggt als %1$s. %2$sAusloggen &raquo;%3$s"
+
+#: comments.php:76
+msgid "Log out of this account"
+msgstr "Melden Sie sich ab."
+
+#: comments.php:82
+#: template-contact.php:102
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:86
+#: template-contact.php:106
+msgid "Enter your name"
+msgstr "Geben Sie Ihren Namen ein."
+
+#: comments.php:91
+msgid "Email (will not be published)"
+msgstr "Email (wird nicht veröffentlicht)"
+
+#: comments.php:95
+#: template-contact.php:115
+msgid "Enter your email address"
+msgstr "Geben Sie Ihre Email-adresse ein."
+
+#: comments.php:100
+msgid "Website (including http://)"
+msgstr "Internetseite (mit http://)"
+
+#: comments.php:104
+msgid "Enter your website URL"
+msgstr "Geben Sie die Adresse Ihrer Internetseite ein."
+
+#: comments.php:111
+msgid "Comment"
+msgstr "Kommentar"
+
+#: comments.php:112
+msgid "Enter your comment"
+msgstr "Ihr Kommentar"
+
+#: comments.php:119
+#: template-contact.php:165
+#, php-format
+msgid "All fields marked (%1$s*%2$s) are required"
+msgstr "Alle markierten Felder (%1$s*%2$s) müssen ausgefüllt werden."
+
+#: comments.php:120
+msgid "Send comment"
+msgstr "Kommentar versenden"
+
+#: footer.php:47
+msgid "Powered by"
+msgstr "Unterstützt von"
+
+#: footer.php:47
+msgid "by"
+msgstr "von"
+
+#: footer.php:48
+msgid "Back to top"
+msgstr "Zurück zum Anfang"
+
+#: functions.php:209
+msgid "Top Navigation"
+msgstr "Top Navigation"
+
+#: functions.php:210
+msgid "Main Navigation"
+msgstr "Main Navigation"
+
+#: header.php:148
+msgid "Open"
+msgstr "Öffnen"
+
+#: header.php:149
+msgid "Close"
+msgstr "Schliessen"
+
+#: header.php:249
+msgid "Menu"
+msgstr "Menü"
+
+#: page.php:39
+#: template-archives.php:34
+#: template-fullwidth.php:43
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: page.php:39
+#: template-archives.php:34
+#: template-contact.php:181
+#: template-fullwidth.php:43
+msgid "Edit this entry."
+msgstr "Bearbeiten Sie diesen Eintrag."
+
+#: search.php:16
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: search.php:94
+msgid "Your search did not match any entries."
+msgstr "Ihre Suche ergab leider keine Treffer."
+
+#: search.php:102
+msgid "Suggestions:"
+msgstr "Bemerkungen:"
+
+#: search.php:104
+msgid "Make sure all words are spelled correctly."
+msgstr "Versichern Sie sich, dass alle Wörter richtig geschrieben sind."
+
+#: search.php:105
+msgid "Try different keywords."
+msgstr "Versuchen Sie andere Schlüsselwörter."
+
+#: search.php:106
+msgid "Try more general keywords."
+msgstr "Versuchen Sie es mit geläufigeren Wörtern."
+
+#: searchform.php:4
+msgid "Search for:"
+msgstr "Suchen:"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "Suche"
+
+#: template-archives.php:42
+msgid "Last 30 posts"
+msgstr "Die letzten 30 Beiträge"
+
+#: template-archives.php:51
+msgid "Archives by month"
+msgstr "Monatlich geordnete Archive"
+
+#: template-archives.php:57
+msgid "Archives by category"
+msgstr "Kategorisch geordnete Archive"
+
+#: template-contact.php:80
+msgid "The CAPTCHA solution was incorrect."
+msgstr "Der CAPTCHA ist nicht korrekt."
+
+#: template-contact.php:81
+msgid "The challenge parameter of the verify script was incorrect."
+msgstr "Der CAPTCHA-code ist nicht korrekt."
+
+#: template-contact.php:82
+msgid "We weren't able to verify the private key."
+msgstr "Wir konnten den persönlichen Zugangsschlüssel leider nicht überprüfen."
+
+#: template-contact.php:96
+msgid "Contact form"
+msgstr "Kontaktformular"
+
+#: template-contact.php:111
+msgid "Email"
+msgstr "Email"
+
+#: template-contact.php:120
+msgid "Subject"
+msgstr "Betreff"
+
+#: template-contact.php:124
+msgid "Enter your subject"
+msgstr "Geben Sie Ihren Grund ein"
+
+#: template-contact.php:129
+msgid "Message"
+msgstr "Nachricht"
+
+#: template-contact.php:130
+msgid "Enter your message"
+msgstr "Geben Sie Ihre Nachricht ein"
+
+#: template-contact.php:141
+msgid "Enter the words above"
+msgstr "Geben Sie die folgenden Buchstaben ein."
+
+#: template-contact.php:142
+msgid "Enter the numbers you hear"
+msgstr "Geben Sie die Nummern ein, die sie hören."
+
+#: template-contact.php:143
+msgid "Get another CAPTCHA"
+msgstr "Bekommen Sie ein anderes CAPTCHA"
+
+#: template-contact.php:144
+msgid "Get an audio CAPTCHA"
+msgstr "Bekommen Sie ein Audio-CAPTCHA"
+
+#: template-contact.php:145
+msgid "Get an image CAPTCHA"
+msgstr "Bekommen Sie ein Bild-CAPTCHA"
+
+#: template-contact.php:146
+msgid "Help"
+msgstr "Hilfe"
+
+#: template-contact.php:150
+msgid "Enter the CAPTCHA"
+msgstr "Geben Sie den CAPTCHA ein"
+
+#: template-contact.php:166
+msgid "Send message"
+msgstr "Nachricht versenden"
+
+#: _admin/home.php:7
+msgid "Widgets"
+msgstr "Widgets"
+
+#: _admin/home.php:8
+msgid "Menus"
+msgstr "Menüs"
+
+#: _admin/home.php:9
+#: _admin/home.php:41
+#: _admin/options.php:584
+msgid "Theme Options"
+msgstr "Themenauswahl"
+
+#: _admin/home.php:36
+msgid "If you have any questions or problems, please read the documentation or contact us."
+msgstr "Falls Sie Fragen oder Probleme haben, lesen Sie die Dokumente oder kontaktieren Sie uns."
+
+#: _admin/home.php:42
+msgid "Our theme has extensive theme options to change the logo, background, slider, tracking code, colours, top bar, leaderboard ..."
+msgstr "Unsere Themen verfügen über eine erhebliche Auswahl an Logos, Slide-Effekten, Farben..."
+
+#: _admin/home.php:43
+msgid "Customise your theme"
+msgstr "Personalisieren Sie ihr Thema"
+
+#: _admin/home.php:48
+msgid "Support &amp; Contact"
+msgstr "Support &amp; Contact"
+
+#: _admin/home.php:49
+#, php-format
+msgid "We provide detailed %1$stheme documentation%2$s. In case you still encounter problems please contact us using our %3$sTheme Support Forum%4$s."
+msgstr "Anbei finden Sie eine detaillierte %1$sThemenerläuterung%2$s. Falls Sie trotzdem auf Probleme strossen, kontaktieren Sie unser %3$sSupport-Forum%4$s oder Hilfe-Center."
+
+#: _admin/home.php:50
+msgid "Visit our support forum"
+msgstr "Konsultieren Sie unser Support-Forum"
+
+#: _admin/home.php:56
+msgid "What to do next?"
+msgstr "Wie geht es weiter?"
+
+#: _admin/home.php:58
+#, php-format
+msgid "%1$sCreate your homepage%2$s and %3$sset it up as your front page%4$s"
+msgstr "%1$sErstellen Sie Ihre Homepage%2$s et %3$sRichten Sie sie wie Ihre neue Homepage ein%4$s"
+
+#: _admin/home.php:60
+#, php-format
+msgid "%1$sCreate your blog page%2$s and %3$sset it up as your posts page%4$s"
+msgstr "%1$sErstellen Sie Ihren Blog%2$s et %3$sRichten Sie sie ein wie Ihre neue Seite für Beiträge%4$s"
+
+#: _admin/home.php:62
+#, php-format
+msgid "%1$sSetup your permalink structure%2$s as explained in the documentation"
+msgstr "%1$sKonfigurieren Sie die Struktur ihren Permalinks%2$s wie in der Dokumentation erklärt"
+
+#: _admin/home.php:64
+#, php-format
+msgid "%1$sAdd some widgets%2$s to your homepage, your sidebar and your footer"
+msgstr "%1$sFügen sie Widgets zu%2$s zu Ihrer Homepag, Ihrer Sidebar und Ihrer Fusszeile hinzu"
+
+#: _admin/home.php:78
+#: _admin/update.php:87
+msgid "Visit us on ThemeForest"
+msgstr "Besuchen Sie unser Profil auf ThemeForest"
+
+#: _admin/home.php:79
+#: _admin/update.php:88
+msgid "Follow us on Twitter"
+msgstr "Verfolgen Sie uns auf Twitter"
+
+#: _admin/options.php:29
+msgid "selected"
+msgstr "ausgewählt"
+
+#: _admin/options.php:40
+msgid "Logo settings"
+msgstr "Logo-Einstellungen"
+
+#: _admin/options.php:46
+msgid "Upload logo"
+msgstr "Logo hochladen"
+
+#: _admin/options.php:47
+msgid "Browse your computer and upload your new logo."
+msgstr "Laden Sie Ihr neues Logo hoch."
+
+#: _admin/options.php:54
+msgid "Enable plain text logo"
+msgstr "Aktivieren Sie Ihr Logo in Textformat"
+
+#: _admin/options.php:55
+msgid "Check this to use a plain text logo rather than an image. Info will be taken from your WordPress settings."
+msgstr "Wählen Sie ein klares Logo in Textformat anstelle eines Bildes. Die Informationen werden ihren WordPress-Einstellungen entnommen."
+
+#: _admin/options.php:66
+msgid "Favicon settings"
+msgstr "Favicon Einstellungen"
+
+#: _admin/options.php:72
+msgid "Upload desktop favicon (16x16px)"
+msgstr "Favicon hochladen (16x16px)"
+
+#: _admin/options.php:73
+msgid "Browse your computer and upload your new favicon."
+msgstr "Laden Sie Ihren neues Favicon hoch."
+
+#: _admin/options.php:80
+msgid "Upload mobile favicon (144x144px)"
+msgstr "Laden Sie Ihr mobiles Flavicone hoch (144x144px)"
+
+#: _admin/options.php:81
+msgid "Browse your computer and upload your new mobile icon."
+msgstr "Durchsuchen Sie ihren Computer und laden Sie Ihr neues Symbol hoch."
+
+#: _admin/options.php:92
+msgid "Sidebar settings"
+msgstr "Sidebar-Einstellungen"
+
+#: _admin/options.php:98
+msgid "Sidebar position"
+msgstr "Sidebar-Position"
+
+#: _admin/options.php:99
+msgid "Select the sidebar position."
+msgstr "Wählen Sie die Position Ihrer Sidebar."
+
+#: _admin/options.php:111
+msgid "Topbar settings"
+msgstr "Topbar-Einstellungen"
+
+#: _admin/options.php:117
+msgid "Enable topbar"
+msgstr "Aktivieren Sie die Topbar"
+
+#: _admin/options.php:118
+msgid "Check this if you want to display a widgetised area at the top of your page."
+msgstr "Klicken Sie hier für eine Widget-Leiste oben auf Ihrer Seite."
+
+#: _admin/options.php:125
+msgid "Topbar columns"
+msgstr "Topbarfelder"
+
+#: _admin/options.php:126
+msgid "Select the number of columns you want to display."
+msgstr "Wählen Sie die Anzahl der Felder, die Sie anzeigen möchten."
+
+#: _admin/options.php:138
+msgid "Leaderboard settings"
+msgstr "Werbeanzeige"
+
+#: _admin/options.php:144
+msgid "Enable leaderboard"
+msgstr "Aktivieren der Werbeanzeige"
+
+#: _admin/options.php:145
+msgid "Check this if you want to display a leaderboard ad (728x90)."
+msgstr "Klicken Sie hier für eine Werbeanzeige mit 728x90px."
+
+#: _admin/options.php:152
+msgid "Leaderboard content"
+msgstr "Inhalt der Werbeanzeige"
+
+#: _admin/options.php:153
+msgid "Enter your full ad code here."
+msgstr "Geben Sie hier den Code Ihrer Werbeanzeige ein."
+
+#: _admin/options.php:168
+msgid "Colour settings"
+msgstr "Farbeinstellungen"
+
+#: _admin/options.php:174
+msgid "Primary font colour"
+msgstr "Erste Schriftfarbe"
+
+#: _admin/options.php:175
+msgid "Choose your primary colour."
+msgstr "Hauptfarbe"
+
+#: _admin/options.php:182
+msgid "Secondary font colour"
+msgstr "Zweite Schriftfarbte"
+
+#: _admin/options.php:183
+msgid "Choose your secondary colour."
+msgstr "Nebenfarbe"
+
+#: _admin/options.php:198
+msgid "Background settings"
+msgstr "Hintergrundeinstellungen"
+
+#: _admin/options.php:204
+msgid "Background colour"
+msgstr "Hintergrundfarbe"
+
+#: _admin/options.php:205
+msgid "Choose your background colour."
+msgstr "Wählen Sie Ihre Hintergrundfarbe"
+
+#: _admin/options.php:212
+msgid "Background pattern"
+msgstr "Hintergrundmotiv"
+
+#: _admin/options.php:213
+msgid "Select your background pattern."
+msgstr "Wählen Sie Ihr Hintergrundmotiv."
+
+#: _admin/options.php:221
+msgid "Enable background fixed position"
+msgstr "Positionieren Sie Ihren Hintergrund."
+
+#: _admin/options.php:222
+msgid "Check this to enable a fixed position for the background pattern."
+msgstr "Klicken Sie hier um Ihren Hintergrund zu positionieren."
+
+#: _admin/options.php:229
+msgid "Enable custom background image"
+msgstr "Aktivieren Sie Ihren personalisierten Hintergrund. "
+
+#: _admin/options.php:230
+msgid "Check this to enable the upload of a custom background image."
+msgstr "Klicken Sie hier um ein ein personalisiertes Hintergrundbild hochzuladen."
+
+#: _admin/options.php:237
+msgid "Upload custom image"
+msgstr "Laden sie einen personalisierten Hintergrund hoch."
+
+#: _admin/options.php:238
+msgid "Browse your computer and upload your image."
+msgstr "Durchsuchen Sie Ihren Computer und laden Sie Ihr Bild hoch."
+
+#: _admin/options.php:245
+msgid "Custom image repeat"
+msgstr "Wiederholung des personalisierten Hintergrundbildes"
+
+#: _admin/options.php:246
+msgid "Select the repeat property of your uploaded image."
+msgstr "Wählen Sie die Wiederholung Ihres hochgeladenen Bildes"
+
+#: _admin/options.php:254
+msgid "Custom image position-x"
+msgstr "Positionierung-x ihres personalisierten Hintergrundbildes."
+
+#: _admin/options.php:255
+msgid "Select the position-x property of your uploaded image."
+msgstr "Wählen Sie die Position-x Ihres personalisierten Hintergrundbildes."
+
+#: _admin/options.php:263
+msgid "Custom image position-y"
+msgstr "Personalisiertes Hintergrundbild Position-y"
+
+#: _admin/options.php:264
+msgid "Select the position-y property of your uploaded image."
+msgstr "Wählen Sie die Position y Ihres personalisierten Hintergrundbildes."
+
+#: _admin/options.php:280
+msgid "Post Format (Gallery) slider settings"
+msgstr "Galerie-Einstellungen"
+
+#: _admin/options.php:286
+msgid "Autoplay"
+msgstr "Autoplay "
+
+#: _admin/options.php:287
+msgid "Milliseconds between slide transitions (0 to disable autoplay)."
+msgstr "Millisekunde zwischen jedem Slide (0 um den Autoplay zu deaktivieren)."
+
+#: _admin/options.php:294
+msgid "Animation duration"
+msgstr "Länge der Animation"
+
+#: _admin/options.php:295
+msgid "Milliseconds from one slide to the next."
+msgstr "Millisekunden zwischen den Slides."
+
+#: _admin/options.php:302
+msgid "Enable previous/next navigation"
+msgstr "Wählen Sie die vorherige/folgende Seite"
+
+#: _admin/options.php:303
+msgid "Check this to create navigation for previous/next navigation."
+msgstr "Klicken Sie hier, um die Steuerung von 'vorherige/folgende Seite' zu aktivieren."
+
+#: _admin/options.php:310
+msgid "Enable paging control navigation"
+msgstr "Aktivieren Sie die Seitenumbruchsteuerung."
+
+#: _admin/options.php:311
+msgid "Check this to create navigation for paging control of each slide."
+msgstr "Klicken Sie hier um die Steuerung durch Seitenumbruch zu aktivieren."
+
+#: _admin/options.php:318
+msgid "Enable keyboard"
+msgstr "Aktivieren sie die Tastatur"
+
+#: _admin/options.php:319
+msgid "Check this to allow slider navigating via keyboard left/right keys."
+msgstr "Klicken Sie hier um die Steuerung durch die Tasten der linken/rechten Tastatur zu aktivieren."
+
+#: _admin/options.php:326
+msgid "Enable mousewheel"
+msgstr "Aktivieren Sie Ihre Maus."
+
+#: _admin/options.php:327
+msgid "Check this to allow slider navigating via mousewheel."
+msgstr "Klicken Sie hier um die Maussteuerung zu aktivieren."
+
+#: _admin/options.php:334
+msgid "Enable randomisation"
+msgstr "Aktivieren Sie die zufällige Reihenfolge der Slides."
+
+#: _admin/options.php:335
+msgid "Check this to randomise slide order."
+msgstr "Klicken Sie hier um die zufällige Reihenfolge der Slides zu aktivieren."
+
+#: _admin/options.php:350
+msgid "Posts settings"
+msgstr "Beitragseinstellungen"
+
+#: _admin/options.php:356
+msgid "Enable related posts"
+msgstr "Ähnliche Beiträge aktivieren."
+
+#: _admin/options.php:357
+msgid "Check this to show a related posts panel on each post page."
+msgstr "Klicken Sie hier um auf jeder Seite ähnliche Beiträge anzuzeigen."
+
+#: _admin/options.php:364
+msgid "Number of related posts"
+msgstr "Anzahl ähnlicher Artikel"
+
+#: _admin/options.php:365
+msgid "Select the number of related posts you want to display."
+msgstr "Wählen Sie die Anzahl der ähnlichen Beiträge, die Sie anzeigen möchten."
+
+#: _admin/options.php:373
+msgid "Enable author bio"
+msgstr "Aktivieren Sie das Anzeigen des Autors"
+
+#: _admin/options.php:374
+msgid "Check this to show an author bio panel on each post page."
+msgstr "Klicken Sie hier um ein Feld über den Autor zu jedem Beitrag anzuzeigen."
+
+#: _admin/options.php:389
+msgid "Contact form settings"
+msgstr "Einstellungen des Kontaktformulars"
+
+#: _admin/options.php:395
+msgid "Email address"
+msgstr "Email-Adresser"
+
+#: _admin/options.php:396
+msgid "Enter the email address where you want to receive emails from the contact form, or leave blank to use admin email."
+msgstr "Geben Sie die Email-Adresse ein, zu der Sie die Nachrichten des Kontaktformulars erhalten möchten oder lassen Sie das Feld frei für die Email-Adresse des Administrators."
+
+#: _admin/options.php:403
+msgid "Greeting message"
+msgstr "Begrüßung"
+
+#: _admin/options.php:404
+msgid "Enter the greeting message."
+msgstr "Geben sie den Begrüßungstext ein."
+
+#: _admin/options.php:411
+msgid "Enable captcha"
+msgstr "Aktivieren Sie CAPTCHA"
+
+#: _admin/options.php:412
+msgid "Check this to enable a captcha"
+msgstr "Klicken Sie hier um CAPTCHA zu aktivieren"
+
+#: _admin/options.php:419
+msgid "Captcha public key"
+msgstr "CAPTCHA - öffentlicher Zugangsschlüssel"
+
+#: _admin/options.php:420
+msgid "Enter your public key. https://www.google.com/recaptcha/admin/create"
+msgstr "Geben Sie ihren öffentlich verfügbaren Schlüssel ein. https://www.google.com/recaptcha/admin/create"
+
+#: _admin/options.php:427
+msgid "Captcha private key"
+msgstr "CAPTCHA - persönlicher Zugangsschlüssel"
+
+#: _admin/options.php:428
+msgid "Enter your private key. https://www.google.com/recaptcha/admin/create"
+msgstr "Geben sie ihren persönlichen Zugangsschlüssel ein.  https://www.google.com/recaptcha/admin/create"
+
+#: _admin/options.php:443
+msgid "Analytics settings"
+msgstr "Analytics Einstellungen"
+
+#: _admin/options.php:449
+msgid "Analytics code"
+msgstr "Analytics Zugangscode"
+
+#: _admin/options.php:450
+msgid "Enter your full Google Analytics code (or any other site tracking code) here. It will be inserted before the closing body tag."
+msgstr "Geben Sie ihren vollständigen Google Analytics Entrez la totalité de votre code Google Analytics (ou tout autre site de tracking). Celui-ci sera inséré avant la fermeture de la balise body."
+
+#: _admin/options.php:461
+msgid "FeedBurner settings"
+msgstr "FeedBurner Einstellungen"
+
+#: _admin/options.php:467
+msgid "FeedBurner URL"
+msgstr "FeedBruner URL"
+
+#: _admin/options.php:468
+msgid "Enter your full FeedBurner URL (or any other preferred feed URL) if you want to use FeedBurner over the standard WordPress Feed (e.g. http://feeds.feedburner.com/awesem)"
+msgstr "Geben Sie ihre FeedBurner URL ein (oder eine andere bevorzugende Adresse), wenn Sie FeedBurner über den Standart WordPress Feed verwenden möchten. (Bsp: http://feeds.feedburner.com/awesem)"
+
+#: _admin/options.php:479
+msgid "Google Maps settings"
+msgstr "Google Maps Einstellungen"
+
+#: _admin/options.php:485
+msgid "Google Maps key"
+msgstr "Google Maps Schlüssel"
+
+#: _admin/options.php:486
+msgid "Enter your full Google Maps API key here. Sign Up for the Google Maps API: http://code.google.com/apis/console/"
+msgstr "Geben Sie hier Ihren vollständigen Google Maps Schlüssel ein. Weitere Informationen unter: http://code.google.com/apis/console/"
+
+#: _admin/options.php:586
+msgid "settings saved"
+msgstr "Gespeicherte Einstellungen"
+
+#: _admin/options.php:587
+msgid "settings reset"
+msgstr "Wiederhergestellte Einstellungen"
+
+#: _admin/options.php:602
+msgid "General"
+msgstr "Allgemein"
+
+#: _admin/options.php:603
+msgid "Colour"
+msgstr "Farben"
+
+#: _admin/options.php:604
+msgid "Background"
+msgstr "Hintergrund"
+
+#: _admin/options.php:605
+msgid "Slider"
+msgstr "Slider"
+
+#: _admin/options.php:606
+msgid "Posts"
+msgstr "Beiträge"
+
+#: _admin/options.php:608
+msgid "API"
+msgstr "API"
+
+#: _admin/options.php:611
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: _admin/options.php:719
+msgid "Current file:"
+msgstr "Aktuelle Datei:"
+
+#: _admin/options.php:809
+msgid "Are you sure you want to restore theme defaults?"
+msgstr "Sind Sie sicher, dass Sie die Standarteinstellungen der Themen wiederherstellen möchten? "
+
+#: _admin/options.php:809
+msgid "Please be advised that these changes cannot be undone."
+msgstr "Diese Änderungen können nicht annuliert werden."
+
+#: _admin/options.php:812
+msgid "Reset"
+msgstr "Zurücksetzung"
+
+#: _admin/update.php:9
+#: _admin/update.php:50
+msgid "Theme update"
+msgstr "Thema hochladen"
+
+#: _admin/update.php:9
+msgid "Theme"
+msgstr "Thema"
+
+#: _admin/update.php:21
+#, php-format
+msgid "There is a new version of the %s theme available."
+msgstr "Eine neue Version Ihres %s Themas ist verfügbar."
+
+#: _admin/update.php:21
+#, php-format
+msgid "You have version %1$s. Update to %2$s."
+msgstr "Sie haben die Version %1$s. Aktualisieren Sie sie für die Version %2$s."
+
+#: _admin/update.php:55
+#, php-format
+msgid "Make a backup of the theme inside your WordPress installation folder /wp-content/themes/%s/"
+msgstr "Speichern Sie Ihr Thema in ihrem WordPress Ordner /wp-content/themes/%s/ ab."
+
+#: _admin/update.php:63
+msgid "Instructions"
+msgstr "Anweisungen"
+
+#: _admin/update.php:65
+#, php-format
+msgid "To update the theme, %1$slogin%2$s to your ThemeForest account, head over to your %3$sdownloads%4$s section and re-download the theme like you did when you bought it"
+msgstr "Um Ihr Thema zu aktualisieren, %1$sloggen Sie sich%2$s in Ihr ThemeForest Account ein, gehen Sie in die Rubrik %3$sHerunterladen%4$s und laden Sie das Thema herunter, wie Sie es beim ersten Mal gemacht haben, als Sie es gekauft haben."
+
+#: _admin/update.php:66
+#, php-format
+msgid "Extract the zip's contents, look for the extracted theme folder, and after you have all the new files upload them using FTP to the %1$s/wp-content/themes/%3$s/%2$s folder overwriting the old ones (this is why it is important to backup any changes you have made to the theme files)."
+msgstr "Extrahieren Sie den Inhalt der Zipdatei, suchen Sie daraufhin den Ordner Themen. Laden sie diesen Ordner mit Hilfe eines Daten Übertragungsprotokolls zu %1$s/wp-content/themes/%3$s/%2$s hoch und gehen Sie sicher, den alten Ordner aktualisiert zu haben (deshalb ist es sehr wichtig Ihr Thema abzuspeichern)."
+
+#: _admin/update.php:67
+msgid "If you didn't make any changes to the theme files, you are free to overwrite them with the new ones without the risk of losing theme settings, pages, posts, etc..."
+msgstr "Wenn Sie keine Änderung der Themenbdateien vorgenommen haben, werden Sie keine Probleme bei der Aktualisierung des alten Ordners haben und keine Verluste der Themeneinstellungen, Widgets...riskieren."
+
+#: _admin/update.php:74
+msgid "Changelog"
+msgstr "Changelog"
+
+#: _functions/post-formats.php:8
+msgid "Quote settings"
+msgstr "Zitateinstellungen"
+
+#: _functions/post-formats.php:14
+msgid "Quote"
+msgstr "Zitat"
+
+#: _functions/post-formats.php:15
+msgid "Enter your quote"
+msgstr "Geben Sie Ihr Zitat ein"
+
+#: _functions/post-formats.php:24
+msgid "Link settings"
+msgstr "Link Einstellungen"
+
+#: _functions/post-formats.php:30
+msgid "Link URL"
+msgstr "Link URL"
+
+#: _functions/post-formats.php:31
+msgid "The full URL (including http://)"
+msgstr "Vollständige URL (mit http://)"
+
+#: _functions/post-formats.php:40
+msgid "Audio settings"
+msgstr "Audio Einstellungen"
+
+#: _functions/post-formats.php:46
+msgid "MP3 File URL"
+msgstr "URL der MP3 Datei "
+
+#: _functions/post-formats.php:47
+msgid "The full URL (including http://) to the mp3 file"
+msgstr "Die vollständige URL (mit http://) Ihrer MP3 Datei"
+
+#: _functions/post-formats.php:52
+msgid "OGG File URL"
+msgstr "URL der OGG Datei"
+
+#: _functions/post-formats.php:53
+msgid "The full URL (including http://) to the ogg file"
+msgstr "Die vollständige URL (mit http://) Ihrer OGG Datei"
+
+#: _functions/post-formats.php:62
+msgid "Video settings"
+msgstr "Videoeinstellungen"
+
+#: _functions/post-formats.php:68
+msgid "M4V File URL"
+msgstr "URL der M4V Datei"
+
+#: _functions/post-formats.php:69
+msgid "The full URL (including http://) to the m4v file"
+msgstr "Die vollständige URL (mit http://) Ihrer M4V Datei"
+
+#: _functions/post-formats.php:74
+msgid "OGV File URL"
+msgstr "URL der OGV Datei "
+
+#: _functions/post-formats.php:75
+msgid "The full URL (including http://) to the ogv file"
+msgstr "Die vollständige URL (mit http://) Ihrer OGV Datei"
+
+#: _functions/post-formats.php:80
+msgid "Embedded Code"
+msgstr "Eingebetteter Code"
+
+#: _functions/post-formats.php:81
+msgid "If you're not using self hosted video then you can include embedded code here. Best viewed at 730px wide."
+msgstr "Wenn Sie Ihr Lieblings-Videoportal (Bsp.: YouTube, Vimeo, Dailymotion) verwenden wollen, geben Sie hier den engebetteten Code (Größe 730px) ein."
+
+#: _functions/post-formats.php:139
+msgid "Note: you must supply both MP3 and OGG files to satisfy all browsers."
+msgstr "Achtung: Sie müssen sowohl die MP3 als auch die OGG Dateien bereitstellen, damit sie mit dem Browser kompatibel sind."
+
+#: _functions/post-formats.php:164
+msgid "Note: you must supply both M4V and OGV files to satisfy all browsers."
+msgstr "Achtung: Sie müssen sowohl die M4V als auch die OGV Dateien bereitstellen, damit sie mit dem Browser kompatibel sind."
+
+#: _includes/audio.php:23
+#: _includes/gallery.php:27
+#: _includes/image.php:23
+#: _includes/link.php:16
+#: _includes/quote.php:23
+msgid "By"
+msgstr "Von"
+
+#: _includes/audio.php:23
+#: _includes/gallery.php:27
+#: _includes/image.php:23
+#: _includes/link.php:16
+#: _includes/quote.php:23
+msgid "in"
+msgstr "in"
+
+#: _includes/audio.php:35
+#: _includes/gallery.php:39
+#: _includes/image.php:35
+#: _includes/link.php:28
+#: _includes/quote.php:35
+msgid "Tags:"
+msgstr "Markierungen:"
+
+#: _includes/author-bio.php:4
+msgid "About the author:"
+msgstr "Über den Autor:"
+
+#: _includes/related-posts.php:6
+msgid "Related posts"
+msgstr "Ähnliche Beiträge"
+
+#: _widgets/ad-120x240.php:32
+msgid "A widget that allows the display and configuration of a 120x240 Ad"
+msgstr "Ein Widget, das einen Werbebanner in der Größe 120x240px anzeigt."
+
+#: _widgets/ad-120x240.php:38
+msgid "120x240 Ad"
+msgstr "Anzeige 120x240"
+
+#: _widgets/ad-120x240.php:99
+#: _widgets/ad-120x60.php:99
+#: _widgets/ad-125x125.php:212
+#: _widgets/ad-300x250.php:99
+#: _widgets/ad-300x600.php:99
+#: _widgets/categories.php:237
+#: _widgets/categories.php:259
+#: _widgets/categories.php:299
+#: _widgets/categories.php:339
+#: _widgets/categories.php:340
+#: _widgets/flickr.php:89
+#: _widgets/latest-blog-posts.php:202
+#: _widgets/news-in-pictures.php:198
+msgid "Title:"
+msgstr "Titel:"
+
+#: _widgets/ad-120x240.php:105
+#: _widgets/ad-120x60.php:105
+#: _widgets/ad-125x125.php:218
+#: _widgets/ad-300x250.php:105
+#: _widgets/ad-300x600.php:105
+msgid "Select Ad type:"
+msgstr "Wählen Sie den Anzeigetyp:"
+
+#: _widgets/ad-120x240.php:107
+#: _widgets/ad-120x60.php:107
+#: _widgets/ad-125x125.php:220
+#: _widgets/ad-300x250.php:107
+#: _widgets/ad-300x600.php:107
+msgid "Image"
+msgstr "Bild"
+
+#: _widgets/ad-120x240.php:108
+#: _widgets/ad-120x60.php:108
+#: _widgets/ad-125x125.php:221
+#: _widgets/ad-300x250.php:108
+#: _widgets/ad-300x600.php:108
+msgid "Custom ad code"
+msgstr "Custom Anzeigencode"
+
+#: _widgets/ad-120x240.php:117
+#: _widgets/ad-120x60.php:117
+#: _widgets/ad-300x250.php:117
+#: _widgets/ad-300x600.php:117
+msgid "Ad image URL:"
+msgstr "Anzeige - Bild URL:"
+
+#: _widgets/ad-120x240.php:123
+#: _widgets/ad-120x60.php:123
+#: _widgets/ad-300x250.php:123
+#: _widgets/ad-300x600.php:123
+msgid "Ad link URL:"
+msgstr "Anzeige - Link URL:"
+
+#: _widgets/ad-120x240.php:133
+#: _widgets/ad-120x60.php:133
+#: _widgets/ad-300x250.php:133
+#: _widgets/ad-300x600.php:133
+msgid "Ad custom code:"
+msgstr "Anzeige - Custom Code:"
+
+#: _widgets/ad-120x60.php:32
+msgid "A widget that allows the display and configuration of a 120x60 Ad"
+msgstr "Ein Widget, das einen Werbebanner in der Größe 120x60px anzeigt."
+
+#: _widgets/ad-120x60.php:38
+msgid "120x60 Ad"
+msgstr "Anzeige 120x60"
+
+#: _widgets/ad-125x125.php:32
+msgid "A widget that allows the display and configuration of 6 125x125 Ads"
+msgstr "Ein Widget, das bis zu sechs Werbebanner in der Größe 125x125px anzeigt."
+
+#: _widgets/ad-125x125.php:38
+msgid "125x125 Ads"
+msgstr "Anzeige 125x125"
+
+#: _widgets/ad-125x125.php:229
+msgid "Ad 1 image URL:"
+msgstr "Anzeige 1 - Bild URL:"
+
+#: _widgets/ad-125x125.php:235
+msgid "Ad 1 link url:"
+msgstr "Anzeige 1 - Link URL:"
+
+#: _widgets/ad-125x125.php:241
+msgid "Ad 2 image url:"
+msgstr "Anzeige 2 - Bild URL:"
+
+#: _widgets/ad-125x125.php:247
+msgid "Ad 2 link url:"
+msgstr "Anzeige 2 -Link URL:"
+
+#: _widgets/ad-125x125.php:253
+msgid "Ad 3 image url:"
+msgstr "Anzeige 3 - Bild URL:"
+
+#: _widgets/ad-125x125.php:259
+msgid "Ad 3 link url:"
+msgstr "Anzeige 3 - Link URL:"
+
+#: _widgets/ad-125x125.php:265
+msgid "Ad 4 image url:"
+msgstr "Anzeige 4 - Bild URL:"
+
+#: _widgets/ad-125x125.php:271
+msgid "Ad 4 link url:"
+msgstr "Anzeige 4 - Link URL:"
+
+#: _widgets/ad-125x125.php:277
+msgid "Ad 5 image url:"
+msgstr "Anzeige 5 - Bild URL:"
+
+#: _widgets/ad-125x125.php:283
+msgid "Ad 5 link url:"
+msgstr "Anzeige 5 - Link URL:"
+
+#: _widgets/ad-125x125.php:289
+msgid "Ad 6 image url:"
+msgstr "Anzeige 6 - Bild URL:"
+
+#: _widgets/ad-125x125.php:295
+msgid "Ad 6 link url:"
+msgstr "anzeige 6 - Link URL:"
+
+#: _widgets/ad-125x125.php:304
+msgid "Ad 1 custom code:"
+msgstr "Anzeige 1 - Custom Code:"
+
+#: _widgets/ad-125x125.php:310
+msgid "Ad 2 custom code:"
+msgstr "Anzeige 2 - Custom Code:"
+
+#: _widgets/ad-125x125.php:316
+msgid "Ad 3 custom code:"
+msgstr "Anzeige 3 - Custom Code:"
+
+#: _widgets/ad-125x125.php:322
+msgid "Ad 4 custom code:"
+msgstr "Anzeige 4 - Custom Code:"
+
+#: _widgets/ad-125x125.php:328
+msgid "Ad 5 custom code:"
+msgstr "Anzeige 5 - Custom Code:"
+
+#: _widgets/ad-125x125.php:334
+msgid "Ad 6 custom code:"
+msgstr "Anzeige 6 - Custom Code:"
+
+#: _widgets/ad-125x125.php:342
+msgid "Randomise ads order"
+msgstr "Zufallsgenerator für Werbeanzeigen"
+
+#: _widgets/ad-300x250.php:32
+msgid "A widget that allows the display and configuration of a 300x250 Ad"
+msgstr "Ein Widget, das einen Werbebanner in der Größe 300x250px anzeigt."
+
+#: _widgets/ad-300x250.php:38
+msgid "300x250 Ad"
+msgstr "Anzeige 300x250"
+
+#: _widgets/ad-300x600.php:32
+msgid "A widget that allows the display and configuration of a 300x600 Ad"
+msgstr "Ein Widget, das einen Werbebanner in der Größe 300x600px anzeigt."
+
+#: _widgets/ad-300x600.php:38
+msgid "300x600 Ad"
+msgstr "Anzeige 300x600"
+
+#: _widgets/categories.php:32
+msgid "A widget that displays your categories"
+msgstr "Ein Widget, das ihre Kategorien anzeigt"
+
+#: _widgets/categories.php:38
+msgid "Categories"
+msgstr "Kategorien"
+
+#: _widgets/categories.php:246
+msgid "Choose a category"
+msgstr "Wählen Sie eine Kategorie"
+
+#: _widgets/categories.php:265
+#: _widgets/categories.php:305
+#: _widgets/categories.php:341
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: _widgets/categories.php:276
+#: _widgets/categories.php:316
+#: _widgets/categories.php:342
+#: _widgets/latest-blog-posts.php:226
+#: _widgets/latest-featured-posts.php:318
+#: _widgets/slider-latest.php:283
+msgid "Exclude:"
+msgstr "Entfernen:"
+
+#: _widgets/categories.php:282
+#: _widgets/categories.php:322
+msgid "Remove"
+msgstr "Entfernen"
+
+#: _widgets/categories.php:347
+msgid "Add more"
+msgstr "Hinzufügen"
+
+#: _widgets/flickr.php:27
+msgid "A widget that displays your Flickr photos"
+msgstr "Ein Widget, das Ihre Flickr Fotos anzeigt"
+
+#: _widgets/flickr.php:33
+msgid "Flickr"
+msgstr "Flickr "
+
+#: _widgets/flickr.php:95
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: _widgets/flickr.php:101
+msgid "Number of photos:"
+msgstr "Anzahl an Fotos:"
+
+#: _widgets/flickr.php:110
+msgid "Type:"
+msgstr "Typ:"
+
+#: _widgets/flickr.php:119
+msgid "Display:"
+msgstr "Anzeigen:"
+
+#: _widgets/latest-blog-posts.php:27
+msgid "A widget that displays your latest posts"
+msgstr "Ein Widget, das Ihre letzten Beiträge anzeigt."
+
+#: _widgets/latest-blog-posts.php:33
+msgid "Latest blog posts"
+msgstr "Die letzten Blog Beiträge"
+
+#: _widgets/latest-blog-posts.php:208
+#: _widgets/latest-featured-posts.php:300
+#: _widgets/slider-latest.php:265
+msgid "Number of posts to pass over:"
+msgstr "Anzahl der zu überspringenden Beiträge:"
+
+#: _widgets/latest-featured-posts.php:27
+msgid "A widget that displays your latest and featured posts"
+msgstr "Ein Widget, das sowohl Ihre letzten , als auch die beliebtesten Artikel anzeigt."
+
+#: _widgets/latest-featured-posts.php:33
+msgid "Latest & Featured posts"
+msgstr "Letzte & beliebteste Beiträge"
+
+#: _widgets/latest-featured-posts.php:272
+msgid "Latest posts - Title:"
+msgstr "Letzte Beiträge - Titel:"
+
+#: _widgets/latest-featured-posts.php:278
+msgid "Featured posts - Title:"
+msgstr "Beliebteste Beiträge - Titel:"
+
+#: _widgets/latest-featured-posts.php:284
+#: _widgets/slider-blog.php:242
+#: _widgets/slider-latest.php:249
+msgid "Number of posts:"
+msgstr "Anzahl der Beiträge:"
+
+#: _widgets/news-in-pictures.php:27
+msgid "A widget that displays your news in pictures"
+msgstr "Ein Widget, das Ihre Beiträge in Bildformat anzeigt"
+
+#: _widgets/news-in-pictures.php:33
+msgid "News in pictures"
+msgstr "Beiträge in Bildformat"
+
+#: _widgets/news-in-pictures.php:204
+#: _widgets/slider-blog.php:200
+#: _widgets/slider-latest.php:207
+msgid "Autoplay:"
+msgstr "Autoplay:"
+
+#: _widgets/news-in-pictures.php:210
+#: _widgets/slider-blog.php:206
+#: _widgets/slider-latest.php:213
+msgid "Animation duration:"
+msgstr "Animationsdauer:"
+
+#: _widgets/slider-blog.php:27
+msgid "A widget that displays your posts tagged 'sliderblog' in a slider"
+msgstr "Ein Widget, das Ihre als 'sliderblog' markierten Artikel in einem Slider anzeigt."
+
+#: _widgets/slider-blog.php:33
+msgid "Slider blog"
+msgstr "Slider Blog"
+
+#: _widgets/slider-blog.php:191
+#: _widgets/slider-latest.php:198
+msgid "Effect:"
+msgstr "Effekt:"
+
+#: _widgets/slider-blog.php:212
+#: _widgets/slider-latest.php:219
+msgid "Enable paging control navigation:"
+msgstr "Aktivieren Sie die Seitenumbruchsteuerung:"
+
+#: _widgets/slider-blog.php:218
+#: _widgets/slider-latest.php:225
+msgid "Enable keyboard:"
+msgstr "Aktivieren Sie die Tastatur:"
+
+#: _widgets/slider-blog.php:224
+#: _widgets/slider-latest.php:231
+msgid "Enable mousewheel:"
+msgstr "Aktivieren Sie Ihre Maus:"
+
+#: _widgets/slider-blog.php:230
+#: _widgets/slider-latest.php:237
+msgid "Enable randomisation:"
+msgstr "Aktivieren Sie den Zufallsgenerator für die Slides:"
+
+#: _widgets/slider-blog.php:236
+#: _widgets/slider-latest.php:243
+msgid "Autohide caption:"
+msgstr "Versteckte Bildbeschriftung:"
+
+#: _widgets/slider-latest.php:27
+msgid "A widget that displays your latest posts in a slider"
+msgstr "Ein Widget, das Ihre letzten Artikel in einem Slider anzeigt. "
+
+#: _widgets/slider-latest.php:33
+msgid "Slider latest"
+msgstr "Slider - letzte Artikel"
+
+#: _widgets/social-counter.php:27
+msgid "A widget that displays a social counter"
+msgstr "Ein Widget, das einen Social Network Button anzeigt (FeedBurner, Twitter et Facebook)."
+
+#: _widgets/social-counter.php:33
+msgid "Social counter"
+msgstr "Social Network Button"
+
+#: _widgets/social-counter.php:41
+msgid "You need to enable the SimpleXML extension (http://php.net/manual/en/book.simplexml.php) to be able to use this widget"
+msgstr "Aktivieren Sie die Erweiterung des Simple XML (http://php.net/manual/en/book.simplexml.php) um diesen Widget benutzen zu können."
+
+#: _widgets/social-counter.php:139
+msgid "subscribers"
+msgstr "Abonnenten"
+
+#: _widgets/social-counter.php:152
+msgid "followers"
+msgstr "Followers"
+
+#: _widgets/social-counter.php:165
+msgid "fans"
+msgstr "Fans"
+
+#: _widgets/social-counter.php:227
+#: _widgets/social-counter.php:248
+#: _widgets/twitter.php:132
+msgid "Username:"
+msgstr "Benutzername:"
+
+#: _widgets/social-counter.php:233
+msgid "URL:"
+msgstr "URL:"
+
+#: _widgets/social-counter.php:263
+msgid "Page ID:"
+msgstr "Seiten ID:"
+
+#: _widgets/social-counter.php:269
+msgid "Page URL:"
+msgstr "Seiten URL:"
+
+#: _widgets/tabbed.php:29
+msgid "A widget that displays your popular posts, recent posts, recent comments and tags"
+msgstr "Ein Widget, das sowohl Ihre beliebtesten, aktuellsten Beiträge als auch Ihre letzten Kommentare und Markierungen anzeigt"
+
+#: _widgets/tabbed.php:35
+msgid "Tabbed"
+msgstr "Registerkarten"
+
+#: _widgets/tabbed.php:98
+msgid "Views"
+msgstr "Views"
+
+#: _widgets/tabbed.php:209
+#: _widgets/tabbed.php:217
+msgid "on "
+msgstr "am "
+
+#: _widgets/tabbed.php:263
+msgid "Tab 1 Title:"
+msgstr "Registerkarte 1 - Titel:"
+
+#: _widgets/tabbed.php:269
+msgid "Tab 2 Title:"
+msgstr "Registerkarte 2 - Titel:"
+
+#: _widgets/tabbed.php:275
+msgid "Tab 3 Title:"
+msgstr "Registerkarte 3 - Titel:"
+
+#: _widgets/tabbed.php:281
+msgid "Tab 4 Title:"
+msgstr "Registerkarte 4 - Titel:"
+
+#: _widgets/twitter.php:27
+msgid "A widget that displays your latest tweets"
+msgstr "Ein Widget, das Ihre letzten Tweets anzeigt."
+
+#: _widgets/twitter.php:33
+msgid "Twitter"
+msgstr "Twitter"
+
+#: _widgets/twitter.php:88
+msgid "ago"
+msgstr "vor"
+
+#: _widgets/twitter.php:95
+msgid "No tweets found."
+msgstr "Keine tweets gefunden."
+
+#: _widgets/twitter.php:138
+msgid "Number of tweets:"
+msgstr "Anzahl an tweets:"
+
+#: _widgets/twitter.php:144
+msgid "Follow Text:"
+msgstr "Folgebeitrag:"
+
+#: _widgets/video.php:26
+msgid "A widget that displays a single video"
+msgstr "Ein Widget, das ein Video zeigt"
+
+#: _widgets/video.php:32
+msgid "Video"
+msgstr "Video"
+
+#: _widgets/video.php:89
+msgid "Embed code:"
+msgstr "Eingebetteter Code:"
+
+#: _widgets/video.php:95
+msgid "Description:"
+msgstr "Beschreibung:"
+
