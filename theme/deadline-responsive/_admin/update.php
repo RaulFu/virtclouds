@@ -103,6 +103,7 @@ function update_notifier() {
 
 /* -- Get theme version -- */
 function get_latest_theme_version($interval) {
+	return $xml;
 	$notifier_file_url = 'http://www.awesem.com/_notifier/deadlineresponsive.xml';
 	$db_cache_field = 'contempo-notifier-cache';
 	$db_cache_field_last_updated = 'contempo-notifier-last-updated';
