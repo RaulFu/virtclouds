@@ -40,7 +40,7 @@ include( TEMPLATEPATH . '/_functions/csscolor.php');
 	
 	<!-- CSS -->
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" media="screen" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noticia+Text:400,700italic,700,400italic" media="screen" />
+	<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noticia+Text:400,700italic,700,400italic" media="screen" />-->
 	<style>
 		<?php
 			$aw_color_1 = new CSS_Color(str_replace('#','',$aw_color_primary));
