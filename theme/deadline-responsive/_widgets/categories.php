@@ -115,8 +115,6 @@ class aw_categories_widget extends WP_Widget {
 					<div class="post-excerpt">
 					
 						<?php the_excerpt(); ?>
-						
-						<p><a href="<?php the_permalink(); ?>" title="<?php printf(__('Permalink to %s', 'framework'), get_the_title()); ?>"><?php _e('Read the rest of this entry', 'framework'); ?></a></p>
 							
 					</div>
 					<!-- END .post-excerpt -->
