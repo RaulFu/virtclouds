@@ -1,4 +1,11 @@
-<?php 
+<?php
+
+/* -- 
+
+	Template Name: Homepage
+	
+-- */
+
 include( TEMPLATEPATH . '/_admin/get-options.php' );
 get_header();
 ?>
@@ -8,46 +15,46 @@ get_header();
 <!-- BEGIN .grid-8 -->
 <div class="grid-8">
 
-	<?php
-	if (have_posts()) : while (have_posts()) : the_post();
-	?>
+	<!-- BEGIN .container -->
+	<div class="container">
 	
-	<?php
-	$format = get_post_format();
-	get_template_part( '_includes/'.$format );
-	if($format == '') get_template_part( '_includes/standard' );
-	?>
+		<!-- BEGIN .grid-8 -->
+		<div id="widgets-homepage-fullwidth" class="grid-8">
 	
-	<?php endwhile; endif; wp_reset_postdata(); wp_reset_query(); ?>
-	
-	<?php if (aw_show_posts_nav()) : ?>
+			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Homepage - Full width') ); ?>
+			<div class="clear"></div>
 		
-	<!-- BEGIN .navigation -->
-	<div class="navigation margin-20">
-	
-		<?php
-		global $wp_query;
-		$big = 999999999;
-		echo paginate_links(
-			array(
-				'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
-				'format' => '?paged=%#%',
-				'current' => max( 1, get_query_var('paged') ),
-				'total' => $wp_query->max_num_pages
-			)
-		);
-		?>
+		</div>
+		<!-- END .grid-8 -->
 		
+		<div class="clear"></div>
+		
+		<!-- BEGIN .grid-4 -->
+		<div class="grid-4">
+			
+			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Homepage - Narrow 1') ); ?>
+			
+		</div>
+		<!-- END .grid-4 -->
+		
+		<!-- BEGIN .grid-4 -->
+		<div class="grid-4">
+			
+			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('Homepage - Narrow 2') ); ?>
+			
+		</div>
+		<!-- END .grid-4 -->
+		
+		<div class="clear"></div>
+	
 	</div>
-	<!-- END .navigation -->
-		
-	<?php endif; ?>
+	<!-- END .container -->
 
 </div>
 <!-- END .grid-8 -->
 
 <?php if ($aw_sidebar_position == 'right') get_sidebar(); ?>
 
-<div class="clear"></div>	
+<div class="clear"></div>
 
 <?php get_footer(); ?>
