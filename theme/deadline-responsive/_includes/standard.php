@@ -6,7 +6,7 @@
 	
 		<?php if (is_singular()) : ?>
 		
-		<h1><span class="post-icon"></span><?php the_title(); ?></h1>
+		<h1><?php the_title(); ?></h1>
 		
 		<?php else : ?>
 		
