@@ -1066,3 +1066,4 @@ h3.widget-title a { text-decoration: none; }
 .sticky {  }
 .bypostauthor {  }
 .rounded { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.floated-thumb .post-thumb img{width:50px;height:50px;}
