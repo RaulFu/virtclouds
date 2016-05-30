@@ -45,7 +45,6 @@
 		<div class="container">
 	
 			<p class="grid-6">&copy; <?php the_time( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>. <?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/">WordPress</a>. <a href="http://www.awesem.com/deadline-responsive/">Deadline Responsive</a> <?php _e('by', 'framework') ?> <a href="http://www.awesemthemes.com">AWESEM</a>.</p>
-			<p class="grid-6 text-right"><a href="#top-nav" id="back-to-top"><?php _e('Back to top', 'framework'); ?></a>.</p>
 			<div class="clear"></div>
 						
 		</div>
@@ -65,7 +64,26 @@
 <?php wp_footer(); ?>
 
 <?php if(($aw_analytics_code != '') && !is_user_logged_in()) echo stripslashes($aw_analytics_code); ?>
-	
+
+
+
+<div id="full-top">
+	<a><img src="http://www.jobbole.com/wp-content/themes/jobboleblogv3/_assets/img/back-top.png" alt="返回顶部" title="返回顶部" border="0" width="20"></a>
+</div>
+<div id="full-btm">
+	<a><img src="http://www.jobbole.com/wp-content/themes/jobboleblogv3/_assets/img/back-btm.png" alt="跳到底部" title="跳到底部" border="0" width="20"></a>
+</div>
+<script type="text/javascript">
+jQuery('#full-btm').click(function(){
+    jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
+    return false;
+});
+jQuery('#full-top').click(function(){
+    jQuery('html, body').animate({scrollTop:0}, 'slow');
+    return false;
+});
+
+</script>
 </body>
 <!-- END body -->
 
