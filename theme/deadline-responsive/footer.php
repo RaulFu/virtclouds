@@ -44,7 +44,7 @@
 		<!-- BEGIN .container -->
 		<div class="container">
 	
-			<p class="grid-6">&copy; <?php the_time( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>. <?php _e('Powered by', 'framework') ?> <a href="http://wordpress.org/">WordPress</a>. <a href="http://www.awesem.com/deadline-responsive/">Deadline Responsive</a> <?php _e('by', 'framework') ?> <a href="http://www.awesemthemes.com">AWESEM</a>.</p>
+			<p class="grid-6">&copy; <?php the_time( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>.</p>
 			<div class="clear"></div>
 						
 		</div>
