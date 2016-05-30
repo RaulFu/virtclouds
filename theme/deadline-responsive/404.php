@@ -13,21 +13,7 @@ get_header();
 	<!-- BEGIN .post -->
 	<div class="post">
 			
-		<!-- BEGIN .entry-header -->
-		<div class="entry-header">
-			
-			<h1><?php _e('Error 404 - Not Found', 'framework') ?></h1>
-				
-		</div>
-		<!-- BEGIN .entry-header -->
-		
-		<!-- BEGIN .entry -->
-		<div class="entry">
-		
-			<p><?php _e('Sorry, but you are looking for something that isn\'t here.', 'framework') ?></p>
-					
-		</div>
-		<!-- END .entry -->
+		<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http://virtclouds.com/" homePageName="回到云计算开发学习门户"></script>
 
 	</div>
 	<!-- END .post -->
