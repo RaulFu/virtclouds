@@ -56,29 +56,8 @@
 		<!-- JiaThis Button END -->
 	</div>
 	
-
-
 	<!-- END .entry-meta -->
 	
-	<?php if ((function_exists('has_post_thumbnail')) && (has_post_thumbnail())) : ?>
-		
-	<!-- BEGIN .entry-thumb -->
-	<div class="entry-thumb">
-		
-		<?php if (is_singular()) : ?>
-		
-		<?php the_post_thumbnail('single-post-thumbnail'); ?>
-		
-		<?php else : ?>
-		
-		<a class="image-link" href="<?php the_permalink(); ?>" title="<?php printf(__('Permalink to %s', 'framework'), get_the_title()); ?>"><?php the_post_thumbnail('single-post-thumbnail'); ?></a>
-		
-		<?php endif; ?>
-		
-	</div>
-	<!-- END .entry-thumb -->
-		
-	<?php endif; ?>
 		
 	<!-- BEGIN .entry -->
 	<div class="entry">
