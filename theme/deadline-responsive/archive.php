@@ -44,7 +44,7 @@ get_header();
 
 	<?php while (have_posts()) : the_post(); ?>
 		
-	<?php if ($offset == 1) : ?>
+	<?php if ($offset == 0) : ?>
 	
 	<!-- BEGIN .slider-wrap -->
 	<div class="slider-wrap" id="sw-archive">
