@@ -556,7 +556,7 @@ span.red { color: #f00; }
 	
 /* -- 12.0 Widgets -- */
 .widget { margin-bottom: 0; }
-h3.widget-title { color: #09c; border-bottom: 1px solid #e8e8e8; text-transform: uppercase; font-size: 11px; line-height: 20px; padding-bottom: 5px; margin-top: 0; }
+h3.widget-title { color: #09c; border-bottom: 1px solid #e8e8e8; text-transform: uppercase; font-size: 13px; line-height: 20px; padding-bottom: 5px; margin-top: 0; font-family:"Microsoft YaHei", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif}
 #top h3.widget-title { border-bottom-color: #444; }
 h3.widget-title a { text-decoration: none; }
 .widget .post-excerpt { margin-bottom: 20px; }
