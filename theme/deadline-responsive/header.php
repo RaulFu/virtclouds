@@ -9,8 +9,6 @@ include( TEMPLATEPATH . '/_functions/csscolor.php');
 <!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html <?php language_attributes(); ?> class="no-js"> <!--<![endif]-->
 
-<!-- Deadline Responsive - A Premium News/Magazine Theme by AWESEM (http://www.awesemthemes.com) - Proudly powered by WordPress (http://wordpress.org) -->
-
 <!-- BEGIN head -->
 <head>
 
