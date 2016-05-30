@@ -371,6 +371,7 @@ a { color: #09c; }
 .entry-meta { border-bottom: 1px dotted #e8e8e8; margin-bottom: 20px; padding-bottom: 15px; }
 .blog .entry-meta, #archive .entry-meta, .search .entry-meta { border-bottom: 0; margin-bottom: 0; }
 .post-meta .meta-title, .post-meta .excerpt { color: #333; text-transform: none; font-weight: bold; font-size: 12px; text-decoration: none; }
+.post-meta .meta-title{font-size: 13px; font-family: "Microsoft YaHei",'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 .post-meta .excerpt {font-weight: normal; margin-top: -5px;  }
 .post { padding-bottom: 20px; }
 .image-link { display: block; background: #fff; padding: 4px; border: 1px solid #e8e8e8; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
