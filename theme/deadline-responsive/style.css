@@ -216,7 +216,7 @@ svg { overflow: hidden; }
 
 
 /* -- 3.0 Typography -- */
-body { font: 12px/20px Arial, sans-serif; }
+body { font:13px/21px "Microsoft YaHei","宋体", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif }
 p, dl, hr, h1, h2, h3, h5, h6, ol, ul, pre, table, address, blockquote, fieldset, figure { margin-bottom: 20px; }
 pre, code { font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
 blockquote { font: 14px/21px 'Noticia Text', Georgia, serif; font-style: italic; }
