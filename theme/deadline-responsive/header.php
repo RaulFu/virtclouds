@@ -260,7 +260,15 @@ include( TEMPLATEPATH . '/_functions/csscolor.php');
 			<!-- END #main-nav -->
 			
 			<div class="clear"></div>
-		
+			<script>
+				var _hmt = _hmt || [];
+				(function() {
+				  var hm = document.createElement("script");
+				  hm.src = "//hm.baidu.com/hm.js?de84c9662794495c47872e090752ee9f";
+				  var s = document.getElementsByTagName("script")[0]; 
+				  s.parentNode.insertBefore(hm, s);
+				})();
+			</script>
 		</header>
 		<!-- END header -->
 		
