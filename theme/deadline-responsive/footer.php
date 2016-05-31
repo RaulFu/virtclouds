@@ -68,10 +68,10 @@
 
 
 <div id="full-top">
-	<a><img src="http://www.jobbole.com/wp-content/themes/jobboleblogv3/_assets/img/back-top.png" alt="返回顶部" title="返回顶部" border="0" width="20"></a>
+	<a><img src="http://www.virtclouds.com/wp-content/themes/dr/_assets/img/back-top.png" alt="返回顶部" title="返回顶部" border="0" width="20"></a>
 </div>
 <div id="full-btm">
-	<a><img src="http://www.jobbole.com/wp-content/themes/jobboleblogv3/_assets/img/back-btm.png" alt="跳到底部" title="跳到底部" border="0" width="20"></a>
+	<a><img src="http://www.virtclouds.com/wp-content/themes/dr/_assets/img/back-btm.png" alt="跳到底部" title="跳到底部" border="0" width="20"></a>
 </div>
 <script type="text/javascript">
 jQuery('#full-btm').click(function(){
