@@ -369,6 +369,7 @@ a { color: #09c; }
 .entry-meta a:hover, .post-meta a:hover { color: #333; }
 .entry-meta p { margin-bottom: 5px; }
 .entry-meta { border-bottom: 1px dotted #e8e8e8; margin-bottom: 20px; padding-bottom: 15px; }
+.entry {font-size: 15px; font-weight: normal; line-height: 1.8;	word-break: break-all; padding: 0 5px;}
 .blog .entry-meta, #archive .entry-meta, .search .entry-meta { border-bottom: 0; margin-bottom: 0; }
 .post-meta .meta-title, .post-meta .excerpt { color: #333; text-transform: none; font-weight: bold; font-size: 12px; text-decoration: none; }
 .post-meta .meta-title{font-size: 13px; font-family: "Microsoft YaHei",'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
