@@ -306,6 +306,47 @@ add_filter('the_content', 'aw_formatter', 99);
 add_filter('widget_text', 'aw_formatter', 99);
 
 
+/* -- Enhance TinyMCE-- */
+function add_editor_buttons($buttons) {
+	$buttons[] = 'fontselect';
+	$buttons[] = 'fontsizeselect';
+	$buttons[] = 'cleanup';
+	$buttons[] = 'styleselect';
+	$buttons[] = 'hr';
+	$buttons[] = 'del';
+	$buttons[] = 'sub';
+	$buttons[] = 'sup';
+	$buttons[] = 'copy';
+	$buttons[] = 'paste';
+	$buttons[] = 'cut';
+	$buttons[] = 'undo';
+	$buttons[] = 'image';
+	$buttons[] = 'anchor';
+	$buttons[] = 'backcolor';
+	$buttons[] = 'wp_page';
+	return $buttons;
+}
+add_filter("mce_buttons_3", "add_editor_buttons");
+
+
+/* -- Disable google fonts -- */
+function disable_open_sans( $translations, $text, $context, $domain )
+{
+	if ( 'Open Sans font: on or off' == $context && 'on' == $text ) {
+		$translations = 'off';
+	}
+	return $translations;
+}
+add_filter('gettext_with_context', 'disable_open_sans', 888, 4 );
+
+function dw_remove_open_sans() {   
+	wp_deregister_style( 'open-sans' );   
+	wp_register_style( 'open-sans', false );   
+	wp_enqueue_style('open-sans','');   
+}
+add_action( 'init', 'dw_remove_open_sans' );
+
+
 /* -- Content width -- */
 if ( ! isset( $content_width ) ) $content_width = 940;
 
