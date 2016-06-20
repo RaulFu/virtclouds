@@ -7,3 +7,13 @@ Example: Change the background colour to black (!important is used to overwrite 
 body { background: #000!important; }
 
 -- */
+.entry pre {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+  margin: 0 0 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.42857143;
+  word-break: break-word; }
