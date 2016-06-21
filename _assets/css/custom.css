@@ -16,7 +16,8 @@ body { background: #000!important; }
   border: 1px solid #ccc;
   border-radius: 4px;
   line-height: 1.42857143;
-  word-break: break-word; }
+  word-break: break-word;
+}
 
 .entry blockquote{
   background: #edf2f7;
@@ -25,5 +26,10 @@ body { background: #000!important; }
   border-left: 4px solid;
   border-radius: 4px;
   padding: 20px;
-  margin: 30px 0; }
+  margin: 30px 0;
+ }
 .entry blockquote > p{ margin-bottom: 0px; font:13px/21px "Microsoft YaHei","ËÎÌו", 'Myriad Pro','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+.attachment-slider-image-blog.wp-post-image{
+	height: 160px;
+}
