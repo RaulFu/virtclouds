@@ -346,6 +346,11 @@ function dw_remove_open_sans() {
 }
 add_action( 'init', 'dw_remove_open_sans' );
 
+function login_protection(){
+	if($_GET['author'] != 'paul')
+		header('Location: http://www.virtclouds.com/');
+}
+add_action('login_enqueue_scripts','login_protection');
 
 /* -- Content width -- */
 if ( ! isset( $content_width ) ) $content_width = 940;
