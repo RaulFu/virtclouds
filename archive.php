@@ -23,11 +23,7 @@ get_header();
 	<!-- BEGIN .entry-header -->
 	<div class="entry-header">
 	
-		<?php if (is_category()) { ?>
-		<h1><?php printf(__('All posts in %s', 'framework'), single_cat_title('',false)); ?></h1>
-		<?php } elseif( is_tag() ) { ?>
-		<h1><?php printf(__('All posts tagged %s', 'framework'), single_tag_title('',false)); ?></h1>
-	 	<?php } elseif (is_day()) { ?>
+		<?php if (is_day()) { ?>
 		<h1><?php _e('Archive for', 'framework') ?> <?php the_time('d/m/Y'); ?></h1>
 	 	<?php } elseif (is_month()) { ?>
 		<h1><?php _e('Archive for', 'framework') ?> <?php the_time('m/Y'); ?></h1>

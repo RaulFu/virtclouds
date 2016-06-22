@@ -16,7 +16,11 @@ body { background: #000!important; }
   border: 1px solid #ccc;
   border-radius: 4px;
   line-height: 1.42857143;
-  word-break: break-word;
+  white-space:pre-wrap;  /*css3.0*/
+  white-space:-moz-pre-wrap;  /*Firefox*/
+  white-space:-pre-wrap;  /*Opera4-6*/
+  white-space:-o-pre-wrap;  /*Opera7*/
+  word-break: break-word; /*InternetExplorer5.5+*/
 }
 
 .entry blockquote{
@@ -32,4 +36,28 @@ body { background: #000!important; }
 
 .attachment-slider-image-blog.wp-post-image{
 	height: 160px;
+}
+
+#full-top{
+	position:fixed;
+	left:50%;
+	bottom:90px;
+	margin-left:495px;
+	z-index:100;
+	text-align:center;
+	cursor:pointer;
+}
+
+#full-btm{
+	position:fixed;
+	left:50%;
+	bottom:60px;
+	margin-left:495px;
+	z-index:100;
+	text-align:center;
+	cursor:pointer;
+}
+
+h2{
+	margin-top: 20px!important;
 }
