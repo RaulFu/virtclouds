@@ -339,6 +339,7 @@ function disable_open_sans( $translations, $text, $context, $domain )
 }
 add_filter('gettext_with_context', 'disable_open_sans', 888, 4 );
 
+
 function dw_remove_open_sans() {   
 	wp_deregister_style( 'open-sans' );   
 	wp_register_style( 'open-sans', false );   
@@ -346,12 +347,34 @@ function dw_remove_open_sans() {
 }
 add_action( 'init', 'dw_remove_open_sans' );
 
+/**
+* 隐藏登录url
+*/
 function login_protection(){
 	$authors = array("paul", "raul");
 	if(!in_array($_GET['author'], $authors))
 		header('Location: http://www.virtclouds.com/');
 }
 add_action('login_enqueue_scripts','login_protection');
+
+
+/**
+ * WordPress 自动为文章添加已使用过的标签
+ */
+function auto_add_tags(){
+	$tags = get_tags( array('hide_empty' => false) );
+	$post_id = get_the_ID();
+	$post_content = get_post($post_id)->post_content;
+	if ($tags) {
+		foreach ( $tags as $tag ) {
+			// 如果文章内容出现了已使用过的标签，自动添加这些标签
+			if ( strpos($post_content, $tag->name) !== false)
+				wp_set_post_tags( $post_id, $tag->name, true );
+		}
+	}
+}
+add_action('save_post', 'auto_add_tags');
+
 
 /* -- Content width -- */
 if ( ! isset( $content_width ) ) $content_width = 940;
