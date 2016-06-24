@@ -186,7 +186,7 @@ add_editor_style();
 
 /* -- The excerpt -- */
 function aw_excerpt_length( $length ) {
-	return 100;
+	return 80;
 }
 add_filter( 'excerpt_length', 'aw_excerpt_length', 999 );
 
