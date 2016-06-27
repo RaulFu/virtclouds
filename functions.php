@@ -306,29 +306,6 @@ add_filter('the_content', 'aw_formatter', 99);
 add_filter('widget_text', 'aw_formatter', 99);
 
 
-/* -- Enhance TinyMCE-- */
-function add_editor_buttons($buttons) {
-	$buttons[] = 'fontselect';
-	$buttons[] = 'fontsizeselect';
-	$buttons[] = 'cleanup';
-	$buttons[] = 'styleselect';
-	$buttons[] = 'hr';
-	$buttons[] = 'del';
-	$buttons[] = 'sub';
-	$buttons[] = 'sup';
-	$buttons[] = 'copy';
-	$buttons[] = 'paste';
-	$buttons[] = 'cut';
-	$buttons[] = 'undo';
-	$buttons[] = 'image';
-	$buttons[] = 'anchor';
-	$buttons[] = 'backcolor';
-	$buttons[] = 'wp_page';
-	return $buttons;
-}
-add_filter("mce_buttons_3", "add_editor_buttons");
-
-
 /* -- Disable google fonts -- */
 function disable_open_sans( $translations, $text, $context, $domain )
 {
@@ -356,25 +333,6 @@ function login_protection(){
 		header('Location: http://www.virtclouds.com/');
 }
 add_action('login_enqueue_scripts','login_protection');
-
-
-/**
- * WordPress 自动为文章添加已使用过的标签
- */
-function auto_add_tags(){
-	$tags = get_tags( array('hide_empty' => false) );
-	$post_id = get_the_ID();
-	$post_content = get_post($post_id)->post_content;
-	if ($tags) {
-		foreach ( $tags as $tag ) {
-			// 如果文章内容出现了已使用过的标签，自动添加这些标签
-			if ( strpos($post_content, $tag->name) !== false)
-				wp_set_post_tags( $post_id, $tag->name, true );
-		}
-	}
-}
-add_action('save_post', 'auto_add_tags');
-
 
 /* -- Content width -- */
 if ( ! isset( $content_width ) ) $content_width = 940;

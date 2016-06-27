@@ -236,4 +236,89 @@ function aw_save_data($post_id) {
 }
 add_action('save_post', 'aw_save_data');
 
+/**
+* Add a featured posts section.
+*/
+function aw_custom_meta() {
+    add_meta_box( 'aw_meta', __( 'Featured Posts', 'aw-textdomain' ), 'aw_meta_callback', 'post' );
+}
+function aw_meta_callback( $post ) {
+    $featured = get_post_meta( $post->ID );
+	echo '<p>
+			<div class="aw-row-content">
+				<label for="meta-checkbox">
+					<input type="checkbox" name="_featured_post" id="_featured_post" value="yes"';
+	
+	if ( isset ( $featured['_featured_post'] ) )
+		checked( $featured['_featured_post'][0], 'yes' ); 
+	__( 'Featured this post?', 'framework' );
+
+	echo '</label></div></p>';
+}
+add_action( 'add_meta_boxes', 'aw_custom_meta' );
+
+/**
+ * Saves the custom meta input
+ */
+function aw_meta_save( $post_id ) {
+ 
+    // Checks save status
+    $is_autosave = wp_is_post_autosave( $post_id );
+    $is_revision = wp_is_post_revision( $post_id );
+    $is_valid_nonce = ( isset( $_POST[ 'aw_nonce' ] ) && wp_verify_nonce( $_POST[ 'aw_nonce' ], basename( __FILE__ ) ) ) ? 'true' : 'false';
+ 
+    // Exits script depending on save status
+    if ( $is_autosave || $is_revision || !$is_valid_nonce ) {
+        return;
+    }
+ 
+	 // Checks for input and saves
+	if( isset( $_POST[ '_featured_post' ] ) ) {
+		update_post_meta( $post_id, '_featured_post', 'yes' );
+	} else {
+		update_post_meta( $post_id, '_featured_post', '' );
+	}
+ 
+}
+add_action( 'save_post', 'aw_meta_save' );
+
+/**
+ * WordPress 自动为文章添加已使用过的标签
+ */
+function auto_add_tags(){
+	$tags = get_tags( array('hide_empty' => false) );
+	$post_id = get_the_ID();
+	$post_content = get_post($post_id)->post_content;
+	if ($tags) {
+		foreach ( $tags as $tag ) {
+			// 如果文章内容出现了已使用过的标签，自动添加这些标签
+			if ( strpos($post_content, $tag->name) !== false)
+				wp_set_post_tags( $post_id, $tag->name, true );
+		}
+	}
+}
+add_action('save_post', 'auto_add_tags');
+
+/* -- Enhance TinyMCE-- */
+function add_editor_buttons($buttons) {
+	$buttons[] = 'fontselect';
+	$buttons[] = 'fontsizeselect';
+	$buttons[] = 'cleanup';
+	$buttons[] = 'styleselect';
+	$buttons[] = 'hr';
+	$buttons[] = 'del';
+	$buttons[] = 'sub';
+	$buttons[] = 'sup';
+	$buttons[] = 'copy';
+	$buttons[] = 'paste';
+	$buttons[] = 'cut';
+	$buttons[] = 'undo';
+	$buttons[] = 'image';
+	$buttons[] = 'anchor';
+	$buttons[] = 'backcolor';
+	$buttons[] = 'wp_page';
+	return $buttons;
+}
+add_filter("mce_buttons_3", "add_editor_buttons");
+
 ?>
