@@ -11,6 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:19
@@ -31,9 +32,7 @@ msgstr ""
 msgid "All posts tagged %s"
 msgstr ""
 
-#: archive.php:31
-#: archive.php:33
-#: archive.php:35
+#: archive.php:31 archive.php:33 archive.php:35
 msgid "Archive for"
 msgstr ""
 
@@ -45,35 +44,21 @@ msgstr ""
 msgid "Blog archives"
 msgstr ""
 
-#: archive.php:63
-#: archive.php:68
-#: archive.php:77
-#: archive.php:114
-#: archive.php:135
-#: search.php:31
-#: search.php:52
+#: archive.php:63 archive.php:68 archive.php:77 archive.php:114 archive.php:135
+#: search.php:31 search.php:52
 #, php-format
 msgid "Permalink to %s"
 msgstr ""
 
-#: archive.php:75
-#: archive.php:135
-#: comments.php:11
-#: search.php:52
+#: archive.php:75 archive.php:135 comments.php:11 search.php:52
 msgid "No comments"
 msgstr ""
 
-#: archive.php:75
-#: archive.php:135
-#: comments.php:11
-#: search.php:52
+#: archive.php:75 archive.php:135 comments.php:11 search.php:52
 msgid "1 comment"
 msgstr ""
 
-#: archive.php:75
-#: archive.php:135
-#: comments.php:11
-#: search.php:52
+#: archive.php:75 archive.php:135 comments.php:11 search.php:52
 #, php-format
 msgid "% comments"
 msgstr ""
@@ -121,13 +106,11 @@ msgstr ""
 msgid "Log out of this account"
 msgstr ""
 
-#: comments.php:82
-#: template-contact.php:102
+#: comments.php:82 template-contact.php:102
 msgid "Name"
 msgstr ""
 
-#: comments.php:86
-#: template-contact.php:106
+#: comments.php:86 template-contact.php:106
 msgid "Enter your name"
 msgstr ""
 
@@ -135,8 +118,7 @@ msgstr ""
 msgid "Email (will not be published)"
 msgstr ""
 
-#: comments.php:95
-#: template-contact.php:115
+#: comments.php:95 template-contact.php:115
 msgid "Enter your email address"
 msgstr ""
 
@@ -156,8 +138,7 @@ msgstr ""
 msgid "Enter your comment"
 msgstr ""
 
-#: comments.php:119
-#: template-contact.php:165
+#: comments.php:119 template-contact.php:165
 #, php-format
 msgid "All fields marked (%1$s*%2$s) are required"
 msgstr ""
@@ -198,15 +179,11 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: page.php:39
-#: template-archives.php:34
-#: template-fullwidth.php:43
+#: page.php:39 template-archives.php:34 template-fullwidth.php:43
 msgid "Pages:"
 msgstr ""
 
-#: page.php:39
-#: template-archives.php:34
-#: template-contact.php:181
+#: page.php:39 template-archives.php:34 template-contact.php:181
 #: template-fullwidth.php:43
 msgid "Edit this entry."
 msgstr ""
@@ -331,9 +308,7 @@ msgstr ""
 msgid "Menus"
 msgstr ""
 
-#: _admin/home.php:9
-#: _admin/home.php:41
-#: _admin/options.php:584
+#: _admin/home.php:9 _admin/home.php:41 _admin/options.php:584
 msgid "Theme Options"
 msgstr ""
 
@@ -386,13 +361,11 @@ msgstr ""
 msgid "%1$sAdd some widgets%2$s to your homepage, your sidebar and your footer"
 msgstr ""
 
-#: _admin/home.php:78
-#: _admin/update.php:87
+#: _admin/home.php:78 _admin/update.php:87
 msgid "Visit us on ThemeForest"
 msgstr ""
 
-#: _admin/home.php:79
-#: _admin/update.php:88
+#: _admin/home.php:79 _admin/update.php:88
 msgid "Follow us on Twitter"
 msgstr ""
 
@@ -800,8 +773,7 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: _admin/update.php:9
-#: _admin/update.php:50
+#: _admin/update.php:9 _admin/update.php:50
 msgid "Theme update"
 msgstr ""
 
@@ -926,27 +898,22 @@ msgstr ""
 msgid "Note: you must supply both M4V and OGV files to satisfy all browsers."
 msgstr ""
 
-#: _includes/audio.php:23
-#: _includes/gallery.php:27
-#: _includes/image.php:23
-#: _includes/link.php:16
-#: _includes/quote.php:23
+#: _functions/post-formats.php:254
+msgid "Featured this post?"
+msgstr ""
+
+#: _includes/audio.php:23 _includes/gallery.php:27 _includes/image.php:23
+#: _includes/link.php:16 _includes/quote.php:23
 msgid "By"
 msgstr ""
 
-#: _includes/audio.php:23
-#: _includes/gallery.php:27
-#: _includes/image.php:23
-#: _includes/link.php:16
-#: _includes/quote.php:23
+#: _includes/audio.php:23 _includes/gallery.php:27 _includes/image.php:23
+#: _includes/link.php:16 _includes/quote.php:23
 msgid "in"
 msgstr ""
 
-#: _includes/audio.php:35
-#: _includes/gallery.php:39
-#: _includes/image.php:35
-#: _includes/link.php:28
-#: _includes/quote.php:35
+#: _includes/audio.php:35 _includes/gallery.php:39 _includes/image.php:35
+#: _includes/link.php:28 _includes/quote.php:35
 msgid "Tags:"
 msgstr ""
 
@@ -966,64 +933,46 @@ msgstr ""
 msgid "120x240 Ad"
 msgstr ""
 
-#: _widgets/ad-120x240.php:99
-#: _widgets/ad-120x60.php:99
-#: _widgets/ad-125x125.php:212
-#: _widgets/ad-300x250.php:99
-#: _widgets/ad-300x600.php:99
-#: _widgets/categories.php:237
-#: _widgets/categories.php:259
-#: _widgets/categories.php:299
-#: _widgets/categories.php:339
-#: _widgets/categories.php:340
-#: _widgets/flickr.php:89
-#: _widgets/latest-blog-posts.php:202
+#: _widgets/ad-120x240.php:99 _widgets/ad-120x60.php:99
+#: _widgets/ad-125x125.php:212 _widgets/ad-300x250.php:99
+#: _widgets/ad-300x600.php:99 _widgets/categories.php:237
+#: _widgets/categories.php:259 _widgets/categories.php:299
+#: _widgets/categories.php:339 _widgets/categories.php:340
+#: _widgets/flickr.php:89 _widgets/latest-blog-posts.php:202
 #: _widgets/news-in-pictures.php:198
 msgid "Title:"
 msgstr ""
 
-#: _widgets/ad-120x240.php:105
-#: _widgets/ad-120x60.php:105
-#: _widgets/ad-125x125.php:218
-#: _widgets/ad-300x250.php:105
+#: _widgets/ad-120x240.php:105 _widgets/ad-120x60.php:105
+#: _widgets/ad-125x125.php:218 _widgets/ad-300x250.php:105
 #: _widgets/ad-300x600.php:105
 msgid "Select Ad type:"
 msgstr ""
 
-#: _widgets/ad-120x240.php:107
-#: _widgets/ad-120x60.php:107
-#: _widgets/ad-125x125.php:220
-#: _widgets/ad-300x250.php:107
+#: _widgets/ad-120x240.php:107 _widgets/ad-120x60.php:107
+#: _widgets/ad-125x125.php:220 _widgets/ad-300x250.php:107
 #: _widgets/ad-300x600.php:107
 msgid "Image"
 msgstr ""
 
-#: _widgets/ad-120x240.php:108
-#: _widgets/ad-120x60.php:108
-#: _widgets/ad-125x125.php:221
-#: _widgets/ad-300x250.php:108
+#: _widgets/ad-120x240.php:108 _widgets/ad-120x60.php:108
+#: _widgets/ad-125x125.php:221 _widgets/ad-300x250.php:108
 #: _widgets/ad-300x600.php:108
 msgid "Custom ad code"
 msgstr ""
 
-#: _widgets/ad-120x240.php:117
-#: _widgets/ad-120x60.php:117
-#: _widgets/ad-300x250.php:117
-#: _widgets/ad-300x600.php:117
+#: _widgets/ad-120x240.php:117 _widgets/ad-120x60.php:117
+#: _widgets/ad-300x250.php:117 _widgets/ad-300x600.php:117
 msgid "Ad image URL:"
 msgstr ""
 
-#: _widgets/ad-120x240.php:123
-#: _widgets/ad-120x60.php:123
-#: _widgets/ad-300x250.php:123
-#: _widgets/ad-300x600.php:123
+#: _widgets/ad-120x240.php:123 _widgets/ad-120x60.php:123
+#: _widgets/ad-300x250.php:123 _widgets/ad-300x600.php:123
 msgid "Ad link URL:"
 msgstr ""
 
-#: _widgets/ad-120x240.php:133
-#: _widgets/ad-120x60.php:133
-#: _widgets/ad-300x250.php:133
-#: _widgets/ad-300x600.php:133
+#: _widgets/ad-120x240.php:133 _widgets/ad-120x60.php:133
+#: _widgets/ad-300x250.php:133 _widgets/ad-300x600.php:133
 msgid "Ad custom code:"
 msgstr ""
 
@@ -1147,23 +1096,18 @@ msgstr ""
 msgid "Choose a category"
 msgstr ""
 
-#: _widgets/categories.php:265
-#: _widgets/categories.php:305
+#: _widgets/categories.php:265 _widgets/categories.php:305
 #: _widgets/categories.php:341
 msgid "Category:"
 msgstr ""
 
-#: _widgets/categories.php:276
-#: _widgets/categories.php:316
-#: _widgets/categories.php:342
-#: _widgets/latest-blog-posts.php:226
-#: _widgets/latest-featured-posts.php:318
-#: _widgets/slider-latest.php:283
+#: _widgets/categories.php:276 _widgets/categories.php:316
+#: _widgets/categories.php:342 _widgets/latest-blog-posts.php:226
+#: _widgets/latest-featured-posts.php:318 _widgets/slider-latest.php:283
 msgid "Exclude:"
 msgstr ""
 
-#: _widgets/categories.php:282
-#: _widgets/categories.php:322
+#: _widgets/categories.php:282 _widgets/categories.php:322
 msgid "Remove"
 msgstr ""
 
@@ -1203,8 +1147,7 @@ msgstr ""
 msgid "Latest blog posts"
 msgstr ""
 
-#: _widgets/latest-blog-posts.php:208
-#: _widgets/latest-featured-posts.php:300
+#: _widgets/latest-blog-posts.php:208 _widgets/latest-featured-posts.php:300
 #: _widgets/slider-latest.php:265
 msgid "Number of posts to pass over:"
 msgstr ""
@@ -1225,8 +1168,7 @@ msgstr ""
 msgid "Featured posts - Title:"
 msgstr ""
 
-#: _widgets/latest-featured-posts.php:284
-#: _widgets/slider-blog.php:242
+#: _widgets/latest-featured-posts.php:284 _widgets/slider-blog.php:242
 #: _widgets/slider-latest.php:249
 msgid "Number of posts:"
 msgstr ""
@@ -1239,14 +1181,12 @@ msgstr ""
 msgid "News in pictures"
 msgstr ""
 
-#: _widgets/news-in-pictures.php:204
-#: _widgets/slider-blog.php:200
+#: _widgets/news-in-pictures.php:204 _widgets/slider-blog.php:200
 #: _widgets/slider-latest.php:207
 msgid "Autoplay:"
 msgstr ""
 
-#: _widgets/news-in-pictures.php:210
-#: _widgets/slider-blog.php:206
+#: _widgets/news-in-pictures.php:210 _widgets/slider-blog.php:206
 #: _widgets/slider-latest.php:213
 msgid "Animation duration:"
 msgstr ""
@@ -1259,33 +1199,27 @@ msgstr ""
 msgid "Slider blog"
 msgstr ""
 
-#: _widgets/slider-blog.php:191
-#: _widgets/slider-latest.php:198
+#: _widgets/slider-blog.php:191 _widgets/slider-latest.php:198
 msgid "Effect:"
 msgstr ""
 
-#: _widgets/slider-blog.php:212
-#: _widgets/slider-latest.php:219
+#: _widgets/slider-blog.php:212 _widgets/slider-latest.php:219
 msgid "Enable paging control navigation:"
 msgstr ""
 
-#: _widgets/slider-blog.php:218
-#: _widgets/slider-latest.php:225
+#: _widgets/slider-blog.php:218 _widgets/slider-latest.php:225
 msgid "Enable keyboard:"
 msgstr ""
 
-#: _widgets/slider-blog.php:224
-#: _widgets/slider-latest.php:231
+#: _widgets/slider-blog.php:224 _widgets/slider-latest.php:231
 msgid "Enable mousewheel:"
 msgstr ""
 
-#: _widgets/slider-blog.php:230
-#: _widgets/slider-latest.php:237
+#: _widgets/slider-blog.php:230 _widgets/slider-latest.php:237
 msgid "Enable randomisation:"
 msgstr ""
 
-#: _widgets/slider-blog.php:236
-#: _widgets/slider-latest.php:243
+#: _widgets/slider-blog.php:236 _widgets/slider-latest.php:243
 msgid "Autohide caption:"
 msgstr ""
 
@@ -1321,8 +1255,7 @@ msgstr ""
 msgid "fans"
 msgstr ""
 
-#: _widgets/social-counter.php:227
-#: _widgets/social-counter.php:248
+#: _widgets/social-counter.php:227 _widgets/social-counter.php:248
 #: _widgets/twitter.php:132
 msgid "Username:"
 msgstr ""
@@ -1351,8 +1284,7 @@ msgstr ""
 msgid "Views"
 msgstr ""
 
-#: _widgets/tabbed.php:209
-#: _widgets/tabbed.php:217
+#: _widgets/tabbed.php:209 _widgets/tabbed.php:217
 msgid "on "
 msgstr ""
 
@@ -1411,4 +1343,3 @@ msgstr ""
 #: _widgets/video.php:95
 msgid "Description:"
 msgstr ""
-
