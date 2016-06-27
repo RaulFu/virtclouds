@@ -151,7 +151,7 @@ class aw_latestfeaturedposts_widget extends WP_Widget {
 				
 				<?php
 				$aw_featured = new WP_Query();
-				$aw_featured->query( array( 'posts_per_page' => $number, 'orderby' => date, 'tag' => 'featuredpost' ) );
+				$aw_featured->query( array( 'posts_per_page' => $number, 'orderby' => date, 'meta_key' => '_featured_post', 'meta_value' => 'yes') );
 				$thumb = 0;
 				if ($aw_featured->have_posts()) : while($aw_featured->have_posts()): $aw_featured->the_post();
 				$thumb++;
