@@ -5,11 +5,9 @@ include('_admin/options.php');
 include('_admin/get-options.php');
 
 function jquery_register() {
-	if ( true ) {
-		wp_deregister_script( 'jquery' );
-		wp_register_script('jquery', get_template_directory_uri() . '/_assets/js/jquery-3.0.0.min.js', array(), '3.0.0', false);
-		wp_enqueue_script( 'jquery' );
-	}
+	wp_deregister_script( 'jquery' );
+	wp_register_script('jquery', get_template_directory_uri() . '/_assets/js/jquery-3.0.0.min.js', array(), '3.0.0', false);
+	wp_enqueue_script( 'jquery' );
 }
 add_action( 'init', 'jquery_register' );
 
