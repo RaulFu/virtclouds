@@ -4,11 +4,20 @@
 include('_admin/options.php');
 include('_admin/get-options.php');
 
+function jquery_register() {
+	if ( true ) {
+		wp_deregister_script( 'jquery' );
+		wp_register_script('jquery', get_template_directory_uri() . '/_assets/js/jquery-3.0.0.min.js', array(), '3.0.0', false);
+		wp_enqueue_script( 'jquery' );
+	}
+}
+add_action( 'init', 'jquery_register' );
+
+
 /* -- Enqueue JS scripts -- */
 function aw_enqueue_js() {  
 	wp_register_script('modernizr', get_template_directory_uri() . '/_assets/js/modernizr.js', array(), '2.5.3', false);
 	wp_enqueue_script('modernizr');
-	wp_enqueue_script('jquery');
 	wp_register_script('easing', get_template_directory_uri() . '/_assets/js/easing.js', array( 'jquery' ), '1.3', true);
 	wp_enqueue_script('easing');
 	wp_register_script('superfish', get_template_directory_uri() . '/_assets/js/superfish.js', array( 'jquery' ), '1.4.8', true);
@@ -25,7 +34,7 @@ function aw_enqueue_js() {
 	wp_enqueue_script('jplayer');
 	wp_register_script('fitvids', get_template_directory_uri() . '/_assets/js/fitvids.js', array( 'jquery' ), '1.0', true);
 	wp_enqueue_script('fitvids');
-	wp_register_script('gmap', get_template_directory_uri() . '/_assets/js/gmap.js', array( 'jquery' ), '1.1.0', true);
+	wp_register_script('gmap', get_template_directory_uri() . '/_assets/js/jquery.gmap.min.js', array( 'jquery' ), '2.1.5', true);
 	wp_enqueue_script('gmap');
 	if (is_singular()) {
 		wp_enqueue_script('comment-reply');
