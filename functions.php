@@ -324,15 +324,6 @@ function dw_remove_open_sans() {
 }
 add_action( 'init', 'dw_remove_open_sans' );
 
-/**
-* 隐藏登录url
-*/
-function login_protection(){
-	$authors = array("paul", "raul");
-	if(!in_array($_GET['author'], $authors))
-		header('Location: http://www.virtclouds.com/');
-}
-add_action('login_enqueue_scripts','login_protection');
 
 /* -- Content width -- */
 if ( ! isset( $content_width ) ) $content_width = 940;
@@ -419,5 +410,8 @@ include('_admin/home.php');
 
 /* -- Theme update -- */
 include('_admin/update.php');
+
+/**-- Login - Hide url --*/
+include('_functions/login-url.php')
 
 ?>
