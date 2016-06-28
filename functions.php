@@ -411,7 +411,11 @@ include('_admin/home.php');
 /* -- Theme update -- */
 include('_admin/update.php');
 
-/**-- Login - Hide url --*/
+
+/** -- Login - Hide url --*/
 include('_functions/login-url.php')
 
+
+/** -- TinyMCE -- */
+include('_functions/tinymce.php')
 ?>
