@@ -16,11 +16,11 @@ body { background: #000!important; }
   border: 1px solid #ccc;
   border-radius: 4px;
   line-height: 1.42857143;
-  white-space:pre-wrap;  /*css3.0*/
-  white-space:-moz-pre-wrap;  /*Firefox*/
-  white-space:-pre-wrap;  /*Opera4-6*/
-  white-space:-o-pre-wrap;  /*Opera7*/
-  word-break: break-word; /*InternetExplorer5.5+*/
+  /* white-space:pre-wrap;  css3.0*/
+  /* white-space:-moz-pre-wrap;  Firefox*/
+  /* white-space:-pre-wrap;  Opera4-6*/
+  /* white-space:-o-pre-wrap;  Opera7*/
+  /* word-break: break-word; InternetExplorer5.5+*/
 }
 
 .entry blockquote{
