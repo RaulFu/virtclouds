@@ -413,9 +413,9 @@ include('_admin/update.php');
 
 
 /** -- Login - Hide url --*/
-include('_functions/login-url.php')
+include('_functions/login-url.php');
 
 
 /** -- TinyMCE -- */
-include('_functions/tinymce.php')
+include('_functions/tinymce.php');
 ?>
