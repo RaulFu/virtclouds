@@ -5,7 +5,6 @@ include('_admin/options.php');
 include('_admin/get-options.php');
 
 function jquery_register() {
-	wp_deregister_script( 'jquery' );
 	wp_register_script('jquery', get_template_directory_uri() . '/_assets/js/jquery-3.0.0.min.js', array(), '3.0.0', false);
 	wp_enqueue_script( 'jquery' );
 }
@@ -47,6 +46,7 @@ add_action( 'wp_enqueue_scripts', 'aw_enqueue_js' );
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
 		'name' => 'Sidebar',
+		'id' => 'sidebar-1',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -54,6 +54,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Sidebar - Narrow 1',
+		'id' => 'sidebar-2',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -61,6 +62,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Sidebar - Narrow 2',
+		'id' => 'sidebar-3',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -68,6 +70,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Homepage - Full width',
+		'id' => 'sidebar-4',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -75,6 +78,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Homepage - Narrow 1',
+		'id' => 'sidebar-5',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -82,6 +86,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Homepage - Narrow 2',
+		'id' => 'sidebar-6',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -89,6 +94,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Footer 1',
+		'id' => 'sidebar-7',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -96,6 +102,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Footer 2',
+		'id' => 'sidebar-8',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -103,6 +110,7 @@ if ( function_exists('register_sidebar') ) {
 	));
 	register_sidebar(array(
 		'name' => 'Footer 3',
+		'id' => 'sidebar-9',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
@@ -111,6 +119,7 @@ if ( function_exists('register_sidebar') ) {
 	if($aw_topbar_columns == '1') {
 		register_sidebar(array(
 			'name' => 'Topbar',
+			'id' => 'sidebar-10',
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
@@ -120,6 +129,7 @@ if ( function_exists('register_sidebar') ) {
 	if($aw_topbar_columns == '3') {
 		register_sidebar(array(
 			'name' => 'Topbar 1',
+			'id' => 'sidebar-11',
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
@@ -127,6 +137,7 @@ if ( function_exists('register_sidebar') ) {
 		));
 		register_sidebar(array(
 			'name' => 'Topbar 2',
+			'id' => 'sidebar-12',
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
@@ -134,6 +145,7 @@ if ( function_exists('register_sidebar') ) {
 		));
 		register_sidebar(array(
 			'name' => 'Topbar 3',
+			'id' => 'sidebar-13',
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
@@ -416,7 +428,7 @@ include('_admin/home.php');
 
 
 /* -- Theme update -- */
-include('_admin/update.php');
+#include('_admin/update.php');
 
 
 /** -- Login - Hide url --*/
@@ -425,4 +437,8 @@ include('_functions/login-url.php');
 
 /** -- TinyMCE -- */
 include('_functions/tinymce.php');
+
+
+/** -- File - rename upload file --*/
+include('_functions/file.php');
 ?>
