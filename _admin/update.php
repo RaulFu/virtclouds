@@ -4,7 +4,8 @@
 /* -- Create menu -- */
 function aw_update_notifier_menu() {
 	$xml = get_latest_theme_version(86400);
-	$theme_data = get_theme_data(TEMPLATEPATH . '/style.css');
+	if(isset($xml)==false) return;
+	$theme_data = wp_get_theme(TEMPLATEPATH . '/style.css');
 	if(version_compare($theme_data['Version'], $xml->latest) == -1) {
 		add_dashboard_page( __('Theme update', 'framework'), __('Theme', 'framework') . '<span class="update-plugins count-1"><span class="update-count">1</span></span>', 'administrator', 'theme-update', update_notifier);
 	}
@@ -15,7 +16,8 @@ add_action('admin_menu', 'aw_update_notifier_menu');
 /* -- Add message to dashboard -- */
 function aw_update_notifier_dashboard() {
 	$xml = get_latest_theme_version(86400);
-	$theme_data = get_theme_data(TEMPLATEPATH . '/style.css');
+	if(isset($xml)==false) return;
+	$theme_data = wp_get_theme(TEMPLATEPATH . '/style.css');
 	if(version_compare($theme_data['Version'], $xml->latest) == -1) { ?>
 		<div id="message" class="updated fade">
 			<p><strong><?php printf(__('There is a new version of the %s theme available.', 'framework'), $theme_data['Name']); ?></strong> <?php printf(__('You have version %1$s. Update to %2$s.', 'framework'), $theme_data['Version'], $xml->latest); ?></p>			
@@ -28,7 +30,7 @@ add_action('admin_notices', 'aw_update_notifier_dashboard');
 /* -- Add update page -- */
 function update_notifier() {
 	$xml = get_latest_theme_version(86400);
-	$theme_data = get_theme_data(TEMPLATEPATH . '/style.css');
+	$theme_data = wp_get_theme(TEMPLATEPATH . '/style.css');
 
 ?>
 
@@ -103,7 +105,7 @@ function update_notifier() {
 
 /* -- Get theme version -- */
 function get_latest_theme_version($interval) {
-	return $xml;
+	return "";
 	$notifier_file_url = 'http://www.awesem.com/_notifier/deadlineresponsive.xml';
 	$db_cache_field = 'contempo-notifier-cache';
 	$db_cache_field_last_updated = 'contempo-notifier-last-updated';
