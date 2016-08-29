@@ -30,7 +30,7 @@ class aw_newsinpictures_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_newsinpictures_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_newsinpictures_widget', 'Deadline Responsive - '.__('News in pictures', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_newsinpictures_widget', 'Deadline Responsive - '.__('News in pictures', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

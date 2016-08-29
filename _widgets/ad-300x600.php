@@ -35,7 +35,7 @@ class aw_ad300x600_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_ad300x600_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_ad300x600_widget', 'Deadline Responsive - '.__('300x600 Ad', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_ad300x600_widget', 'Deadline Responsive - '.__('300x600 Ad', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

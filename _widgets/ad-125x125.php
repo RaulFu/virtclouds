@@ -35,7 +35,7 @@ class aw_ad125x125_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_ad125x125_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_ad125x125_widget', 'Deadline Responsive - '.__('125x125 Ads', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_ad125x125_widget', 'Deadline Responsive - '.__('125x125 Ads', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

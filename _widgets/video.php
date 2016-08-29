@@ -29,7 +29,7 @@ class aw_video_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_video_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_video_widget', 'Deadline Responsive - '.__('Video', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_video_widget', 'Deadline Responsive - '.__('Video', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

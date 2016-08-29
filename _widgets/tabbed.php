@@ -32,7 +32,7 @@ class aw_tabbed_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_tabbed_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_tabbed_widget', 'Deadline Responsive - '.__('Tabbed','framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_tabbed_widget', 'Deadline Responsive - '.__('Tabbed','framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */	

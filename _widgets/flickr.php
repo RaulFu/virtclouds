@@ -30,7 +30,7 @@ class aw_flickr_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_flickr_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_flickr_widget', 'Deadline Responsive - '.__('Flickr', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_flickr_widget', 'Deadline Responsive - '.__('Flickr', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

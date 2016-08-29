@@ -30,7 +30,7 @@ class aw_latestblogposts_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_latestblogposts_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_latestblogposts_widget', 'Deadline Responsive - '.__('Latest blog posts', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_latestblogposts_widget', 'Deadline Responsive - '.__('Latest blog posts', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

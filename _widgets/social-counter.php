@@ -30,7 +30,7 @@ class aw_socialcounter_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_socialcounter_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_socialcounter_widget', 'Deadline Responsive - '.__('Social counter','framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_socialcounter_widget', 'Deadline Responsive - '.__('Social counter','framework'), $widget_ops, $control_ops );
 	}	
 
 	/* -- Display widget -- */	

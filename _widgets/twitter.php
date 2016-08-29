@@ -30,7 +30,7 @@ class aw_twitter_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_twitter_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_twitter_widget', 'Deadline Responsive - '.__('Twitter','framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_twitter_widget', 'Deadline Responsive - '.__('Twitter','framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

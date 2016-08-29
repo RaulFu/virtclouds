@@ -30,7 +30,7 @@ class aw_sliderlatest_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_sliderlatest_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_sliderlatest_widget', 'Deadline Responsive - '.__('Slider latest','framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_sliderlatest_widget', 'Deadline Responsive - '.__('Slider latest','framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */

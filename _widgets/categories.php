@@ -35,7 +35,7 @@ class aw_categories_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_categories_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_categories_widget', 'Deadline Responsive - '.__('Categories', 'framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_categories_widget', 'Deadline Responsive - '.__('Categories', 'framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display Widget -- */

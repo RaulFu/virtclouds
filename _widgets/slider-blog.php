@@ -30,7 +30,7 @@ class aw_sliderblog_widget extends WP_Widget {
 		$control_ops = array( 'id_base' => 'aw_sliderblog_widget' );
 
 		/* -- Create the widget -- */
-		$this->WP_Widget( 'aw_sliderblog_widget', 'Deadline Responsive - '.__('Slider blog','framework'), $widget_ops, $control_ops );
+		parent::__construct( 'aw_sliderblog_widget', 'Deadline Responsive - '.__('Slider blog','framework'), $widget_ops, $control_ops );
 	}
 
 	/* -- Display widget -- */
