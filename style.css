@@ -270,7 +270,7 @@ a { color: #09c; }
 	.ie7 .header-wrapper { position: static; }
 	#logo-text { font-size: 28px; font-weight: bold; text-decoration: none; }
 	#tagline { font: italic 11px/20px 'Noticia Text', serif; }
-	#logo.leaderboard-true { width: 172px; float: left; margin: 0 20px 40px 10px; }
+	#logo.leaderboard-true { width: 172px; float: left; margin: 0 20px 0 10px; }
 	.ie7 #logo.leaderboard-true { position: static !important; margin-top: 0 !important; top: 0 !important; }
 	#logo.leaderboard-true img { width: 100%; }
 	#leaderboard { width: 728px; height: 90px; float: right; margin: 0 0 0 20px; }
