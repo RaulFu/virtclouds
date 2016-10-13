@@ -205,9 +205,9 @@ add_editor_style();
 
 /* -- The excerpt -- */
 function aw_excerpt_length( $length ) {
-	return 80;
+	return 50;
 }
-add_filter( 'excerpt_length', 'aw_excerpt_length', 999 );
+add_filter( 'excerpt_length', 'aw_excerpt_length');
 
 function aw_excerpt_more( $more ) {
 	return '...';
