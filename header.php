@@ -265,9 +265,17 @@ include( TEMPLATEPATH . '/_functions/csscolor.php');
 		<!-- END header -->
 		
 		<?php 
-		if( function_exists('bcn_display') && !is_front_page() ) :
+		if( function_exists('bcn_display') && !is_front_page() ) {
 			echo '<div id="breadcrumb" class="grid-12 margin-20"><div class="breadcrumb-wrapper">';
 			bcn_display();
 			echo '</div></div><div class="clear"></div>';
-		endif;
+                        }
+                elseif ( function_exists('yoast_breadcrumb')  && !is_front_page() ){
+			echo '<div id="breadcrumb" class="grid-12 margin-20"><div class="breadcrumb-wrapper">';
+                        yoast_breadcrumb('<div id="breadcrumbs">','</div>');
+			echo '</div></div><div class="clear"></div>';
+                        }
+                else {
+                     echo '';
+                     }
 		?>
